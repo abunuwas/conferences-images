@@ -1,1 +1,76 @@
-<mxfile host="app.diagrams.net" modified="2021-10-12T21:20:06.591Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" version="15.3.0" etag="Gtf1nsRPyOacQCjibZ_Q" type="github"><diagram id="hTJuEWhd1G977Ux1Hzax">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-10-12T21:45:27.865Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="oVVCLq7-eK5PcshuRBvp" version="15.3.0" type="github">
+  <diagram id="hTJuEWhd1G977Ux1Hzax" name="Page-1">
+    <mxGraphModel dx="1141" dy="635" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="dB0MueRaP_W8WUVMyLtg-3" value="" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.azure.code_file" vertex="1" parent="1">
+          <mxGeometry x="130" y="190" width="47" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="dB0MueRaP_W8WUVMyLtg-4" value="Changes to the API" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="93.5" y="40" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dB0MueRaP_W8WUVMyLtg-5" value="" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image;image=img/lib/allied_telesis/computer_and_terminals/Personal_Computer.svg;" vertex="1" parent="1">
+          <mxGeometry x="280" y="100" width="45.6" height="61.800000000000004" as="geometry" />
+        </mxCell>
+        <mxCell id="dB0MueRaP_W8WUVMyLtg-6" value="" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image;image=img/lib/active_directory/generic_server.svg;" vertex="1" parent="1">
+          <mxGeometry x="288.8" y="270" width="28.000000000000004" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="dB0MueRaP_W8WUVMyLtg-7" value="CI server" style="image;image=img/lib/atlassian/Bamboo_Logo.svg;" vertex="1" parent="1">
+          <mxGeometry x="450" y="258" width="64" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="dB0MueRaP_W8WUVMyLtg-8" value="CI server" style="image;image=img/lib/atlassian/Bamboo_Logo.svg;" vertex="1" parent="1">
+          <mxGeometry x="450" y="93.9" width="64" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="dB0MueRaP_W8WUVMyLtg-9" value="" style="sketch=0;html=1;dashed=0;whitespace=wrap;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon;prIcon=api" vertex="1" parent="1">
+          <mxGeometry x="600" y="256" width="100" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="dB0MueRaP_W8WUVMyLtg-10" value="Cloud&#xa;CDN" style="sketch=0;html=1;fillColor=#5184F3;strokeColor=none;verticalAlign=top;labelPosition=center;verticalLabelPosition=bottom;align=center;spacingTop=-6;fontSize=11;fontStyle=1;fontColor=#999999;shape=mxgraph.gcp2.hexIcon;prIcon=cloud_cdn" vertex="1" parent="1">
+          <mxGeometry x="600" y="87.4" width="100" height="87" as="geometry" />
+        </mxCell>
+        <mxCell id="dB0MueRaP_W8WUVMyLtg-13" value="" style="shape=flexArrow;endArrow=classic;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="190.00000000000003" as="sourcePoint" />
+            <mxPoint x="260" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dB0MueRaP_W8WUVMyLtg-14" value="" style="shape=flexArrow;endArrow=classic;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="245" as="sourcePoint" />
+            <mxPoint x="260" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dB0MueRaP_W8WUVMyLtg-16" value="" style="shape=flexArrow;endArrow=classic;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="130.50000000000003" as="sourcePoint" />
+            <mxPoint x="410" y="130.50000000000003" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dB0MueRaP_W8WUVMyLtg-17" value="" style="shape=flexArrow;endArrow=classic;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="294.6" as="sourcePoint" />
+            <mxPoint x="410" y="294.6" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dB0MueRaP_W8WUVMyLtg-18" value="" style="shape=flexArrow;endArrow=classic;html=1;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="530" y="130.5" as="sourcePoint" />
+            <mxPoint x="580" y="130.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dB0MueRaP_W8WUVMyLtg-19" value="" style="shape=flexArrow;endArrow=classic;html=1;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="530" y="294.6" as="sourcePoint" />
+            <mxPoint x="580" y="294.6" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dB0MueRaP_W8WUVMyLtg-20" value="Implementation and validation in the CI server" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;spacingLeft=2;spacingBottom=2;" vertex="1" parent="1">
+          <mxGeometry x="316.8" y="40" width="154.4" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dB0MueRaP_W8WUVMyLtg-21" value="Deployment and release" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;spacingLeft=2;spacingBottom=2;" vertex="1" parent="1">
+          <mxGeometry x="500" y="40" width="154.4" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
