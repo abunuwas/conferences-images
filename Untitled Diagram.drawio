@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-08T10:58:03.166Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="4wr2ZA7k-4GpHwIGukWT" version="20.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-08T11:07:24.605Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="2_tQ5lXKUJhzUPCYWcu5" version="20.2.3" type="github">
   <diagram id="w65AgEcsbwL5PO4EomMU" name="Page-1">
     <mxGraphModel dx="951" dy="1629" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -270,6 +270,27 @@
         </mxCell>
         <mxCell id="RWHLB6M2Nt2bu9l5WMri-83" value="+ country: str" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="RWHLB6M2Nt2bu9l5WMri-77">
           <mxGeometry y="156" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="RWHLB6M2Nt2bu9l5WMri-84" value="skills_candidate_association" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="850" y="410" width="200" height="182" as="geometry" />
+        </mxCell>
+        <mxCell id="RWHLB6M2Nt2bu9l5WMri-85" value="+ id: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="RWHLB6M2Nt2bu9l5WMri-84">
+          <mxGeometry y="26" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="RWHLB6M2Nt2bu9l5WMri-86" value="+ created: datetime" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="RWHLB6M2Nt2bu9l5WMri-84">
+          <mxGeometry y="52" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="RWHLB6M2Nt2bu9l5WMri-87" value="+ updated: datetime" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="RWHLB6M2Nt2bu9l5WMri-84">
+          <mxGeometry y="78" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="RWHLB6M2Nt2bu9l5WMri-88" value="+ skill: int, FK=skill.id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="RWHLB6M2Nt2bu9l5WMri-84">
+          <mxGeometry y="104" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="RWHLB6M2Nt2bu9l5WMri-89" value="+ candidate: int, FK=candidate.id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="RWHLB6M2Nt2bu9l5WMri-84">
+          <mxGeometry y="130" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="RWHLB6M2Nt2bu9l5WMri-90" value="+ year_of_experience: int, nullable" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="RWHLB6M2Nt2bu9l5WMri-84">
+          <mxGeometry y="156" width="200" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
