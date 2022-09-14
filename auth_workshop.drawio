@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-14T14:41:37.451Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="MMosoOGwuV6pSDrNz09r" version="20.2.8" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-09-14T14:42:39.259Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="Ac-uoqck6Dk1KrtO6c3a" version="20.2.8" type="github" pages="5">
   <diagram id="vSn0QKJqHxPC6K8kOgIM" name="auth_code_flow">
     <mxGraphModel dx="1038" dy="667" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -131,7 +131,8 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="250" y="500" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="215" y="531" />
+              <mxPoint x="430" y="532" />
+              <mxPoint x="430" y="532" />
             </Array>
           </mxGeometry>
         </mxCell>
