@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-21T21:50:42.427Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="z60OvRAmPfEfAewP_16R" version="20.3.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-21T21:51:52.522Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="GGsGQV3ftoDgjPZmme7u" version="20.3.2" type="github">
   <diagram id="w65AgEcsbwL5PO4EomMU" name="Page-1">
     <mxGraphModel dx="951" dy="491" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -35,7 +35,7 @@
           <mxGeometry y="156" width="140" height="26" as="geometry" />
         </mxCell>
         <mxCell id="jkaa5wtrJsPc-l5MgYiC-8" value="Recruiter" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#d5e8d4;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="100" y="450" width="180" height="260" as="geometry" />
+          <mxGeometry x="100" y="450" width="180" height="208" as="geometry" />
         </mxCell>
         <mxCell id="jkaa5wtrJsPc-l5MgYiC-9" value="+ id: int" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#333333;" parent="jkaa5wtrJsPc-l5MgYiC-8" vertex="1">
           <mxGeometry y="26" width="180" height="26" as="geometry" />
@@ -46,23 +46,17 @@
         <mxCell id="jkaa5wtrJsPc-l5MgYiC-11" value="+ updated: datetime" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#333333;" parent="jkaa5wtrJsPc-l5MgYiC-8" vertex="1">
           <mxGeometry y="78" width="180" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="jkaa5wtrJsPc-l5MgYiC-12" value="+ first_name: str" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="jkaa5wtrJsPc-l5MgYiC-8" vertex="1">
+        <mxCell id="jkaa5wtrJsPc-l5MgYiC-12" value="+ name: str" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="jkaa5wtrJsPc-l5MgYiC-8" vertex="1">
           <mxGeometry y="104" width="180" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="jkaa5wtrJsPc-l5MgYiC-13" value="+ last_name: str," style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="jkaa5wtrJsPc-l5MgYiC-8" vertex="1">
+        <mxCell id="jkaa5wtrJsPc-l5MgYiC-14" value="+ email: str" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="jkaa5wtrJsPc-l5MgYiC-8" vertex="1">
           <mxGeometry y="130" width="180" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="jkaa5wtrJsPc-l5MgYiC-14" value="+ email: str" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="jkaa5wtrJsPc-l5MgYiC-8" vertex="1">
+        <mxCell id="jkaa5wtrJsPc-l5MgYiC-16" value="+ hirer_id: int, FK=hirer.id" style="text;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="jkaa5wtrJsPc-l5MgYiC-8" vertex="1">
           <mxGeometry y="156" width="180" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="jkaa5wtrJsPc-l5MgYiC-17" value="+ contact_number: str, nullable" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#333333;" parent="jkaa5wtrJsPc-l5MgYiC-8" vertex="1">
-          <mxGeometry y="182" width="180" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="jkaa5wtrJsPc-l5MgYiC-16" value="+ hirer_id: int, FK=hirer.id" style="text;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="jkaa5wtrJsPc-l5MgYiC-8" vertex="1">
-          <mxGeometry y="208" width="180" height="26" as="geometry" />
-        </mxCell>
         <mxCell id="jkaa5wtrJsPc-l5MgYiC-18" value="+ hirer: relationship(Hirer)" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="jkaa5wtrJsPc-l5MgYiC-8" vertex="1">
-          <mxGeometry y="234" width="180" height="26" as="geometry" />
+          <mxGeometry y="182" width="180" height="26" as="geometry" />
         </mxCell>
         <mxCell id="jkaa5wtrJsPc-l5MgYiC-19" value="Job" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#d5e8d4;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="560" y="310" width="220" height="468" as="geometry">
