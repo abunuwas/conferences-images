@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-17T08:12:32.033Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="wd_IAVXOL-C7pLpW905A" version="20.2.2" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2022-10-17T08:12:50.674Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="6i0t8QnNxNEQjZv9ySr9" version="20.2.2" type="github" pages="7">
   <diagram id="M96ZtYPPiIs4SBoh-yoR" name="jupyter">
     <mxGraphModel dx="791" dy="471" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -709,16 +709,16 @@
         <mxCell id="RafaaQ0dFaeEVvup75Ut-33" value="New store forecast model" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="40" y="210" width="140" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="RafaaQ0dFaeEVvup75Ut-36" value="Retrieve forecast" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontSize=11;" vertex="1" parent="1">
+        <mxCell id="RafaaQ0dFaeEVvup75Ut-36" value="Retrieve forecast" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontSize=11;dashPattern=1 1;" vertex="1" parent="1">
           <mxGeometry x="30" y="100" width="310" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="RafaaQ0dFaeEVvup75Ut-37" value="Create and update candidates" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontSize=11;" vertex="1" parent="1">
+        <mxCell id="RafaaQ0dFaeEVvup75Ut-37" value="Create and update candidates" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontSize=11;dashPattern=1 1;" vertex="1" parent="1">
           <mxGeometry x="370" y="100" width="300" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="RafaaQ0dFaeEVvup75Ut-38" value="Create submissions" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontSize=11;" vertex="1" parent="1">
+        <mxCell id="RafaaQ0dFaeEVvup75Ut-38" value="Create submissions" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontSize=11;dashPattern=1 1;" vertex="1" parent="1">
           <mxGeometry x="370" y="270" width="310" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="RafaaQ0dFaeEVvup75Ut-39" value="Create and update scenarios" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontSize=11;" vertex="1" parent="1">
+        <mxCell id="RafaaQ0dFaeEVvup75Ut-39" value="Create and update scenarios" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontSize=11;dashPattern=1 1;" vertex="1" parent="1">
           <mxGeometry x="30" y="275" width="290" height="30" as="geometry" />
         </mxCell>
       </root>
