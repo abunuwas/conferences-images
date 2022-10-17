@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-17T08:03:33.791Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="u2y8bHF1dZLVVZUpfMPz" version="20.2.2" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2022-10-17T08:05:00.004Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="FngBMZTDsCkJHdznclze" version="20.2.2" type="github" pages="7">
   <diagram id="M96ZtYPPiIs4SBoh-yoR" name="jupyter">
     <mxGraphModel dx="791" dy="471" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -652,55 +652,58 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="RafaaQ0dFaeEVvup75Ut-22" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;dashed=1;" vertex="1" parent="1">
+        <mxCell id="RafaaQ0dFaeEVvup75Ut-34" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="150" y="110" width="530" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="RafaaQ0dFaeEVvup75Ut-22" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;dashed=1;fillColor=#f9f7ed;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="160" y="410" width="510" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="RafaaQ0dFaeEVvup75Ut-21" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;dashed=1;" vertex="1" parent="1">
+        <mxCell id="RafaaQ0dFaeEVvup75Ut-21" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;dashed=1;fillColor=#f9f7ed;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="160" y="340" width="500" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="RafaaQ0dFaeEVvup75Ut-20" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;dashed=1;" vertex="1" parent="1">
+        <mxCell id="RafaaQ0dFaeEVvup75Ut-20" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;dashed=1;fillColor=#f9f7ed;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="160" y="270" width="480" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="RafaaQ0dFaeEVvup75Ut-19" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;dashed=1;" vertex="1" parent="1">
+        <mxCell id="RafaaQ0dFaeEVvup75Ut-19" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;dashed=1;fillColor=#f9f7ed;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="160" y="130" width="310" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="RafaaQ0dFaeEVvup75Ut-3" value="GET /forecast/{forecast_id}" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
+        <mxCell id="RafaaQ0dFaeEVvup75Ut-3" value="GET /forecast/{forecast_id}" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="320" y="140" width="140" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="RafaaQ0dFaeEVvup75Ut-4" value="POST, GET /scenarios" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
+        <mxCell id="RafaaQ0dFaeEVvup75Ut-4" value="POST, GET /scenarios" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="320" y="280" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="RafaaQ0dFaeEVvup75Ut-6" value="GET, PUT /scenarios/{scenario_id}" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
+        <mxCell id="RafaaQ0dFaeEVvup75Ut-6" value="GET, PUT /scenarios/{scenario_id}" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="450" y="280" width="180" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="RafaaQ0dFaeEVvup75Ut-9" value="POST, GET /submissions" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
+        <mxCell id="RafaaQ0dFaeEVvup75Ut-9" value="POST, GET /submissions" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="320" y="420" width="140" height="40" as="geometry" />
         </mxCell>
         <mxCell id="RafaaQ0dFaeEVvup75Ut-10" value="Forecast model" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="170" y="140" width="120" height="40" as="geometry" />
+          <mxGeometry x="170" y="140" width="140" height="40" as="geometry" />
         </mxCell>
         <mxCell id="RafaaQ0dFaeEVvup75Ut-11" value="Scenario model" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="170" y="280" width="120" height="40" as="geometry" />
+          <mxGeometry x="170" y="280" width="140" height="40" as="geometry" />
         </mxCell>
         <mxCell id="RafaaQ0dFaeEVvup75Ut-12" value="Candidate model" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="170" y="350" width="120" height="40" as="geometry" />
+          <mxGeometry x="170" y="350" width="140" height="40" as="geometry" />
         </mxCell>
         <mxCell id="RafaaQ0dFaeEVvup75Ut-13" value="Submission model" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="170" y="420" width="120" height="40" as="geometry" />
+          <mxGeometry x="170" y="420" width="140" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="RafaaQ0dFaeEVvup75Ut-15" value="POST, GET /candidates" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
+        <mxCell id="RafaaQ0dFaeEVvup75Ut-15" value="POST, GET /candidates" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="320" y="350" width="130" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="RafaaQ0dFaeEVvup75Ut-17" value="GET, PUT /candidates/{candidate_id}" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
+        <mxCell id="RafaaQ0dFaeEVvup75Ut-17" value="GET, PUT /candidates/{candidate_id}" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="460" y="350" width="190" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="RafaaQ0dFaeEVvup75Ut-24" value="GET, DELETE /submissions/{subbmission_id}" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
+        <mxCell id="RafaaQ0dFaeEVvup75Ut-24" value="GET, DELETE /submissions/{subbmission_id}" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="470" y="420" width="190" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="RafaaQ0dFaeEVvup75Ut-31" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;dashed=1;" vertex="1" parent="1">
+        <mxCell id="RafaaQ0dFaeEVvup75Ut-31" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;dashed=1;fillColor=#f9f7ed;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="160" y="200" width="290" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="RafaaQ0dFaeEVvup75Ut-32" value="POST /new-stores" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
+        <mxCell id="RafaaQ0dFaeEVvup75Ut-32" value="POST /new-stores" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="320" y="210" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="RafaaQ0dFaeEVvup75Ut-33" value="New store forecast model" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
