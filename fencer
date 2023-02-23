@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-23T16:03:12.372Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="5HvZRaHg-bEFCWr-du1R" version="20.8.22" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-02-23T16:33:49.955Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="LrLCfnOLydAFvdgZScUP" version="20.8.22" type="github" pages="6">
   <diagram id="cpmi-uvVvtRBLQvHSzT2" name="holistic_api_security">
     <mxGraphModel dx="1434" dy="739" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -558,6 +558,59 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="120" y="501.17" as="sourcePoint" />
             <mxPoint x="228" y="501.17" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="kTWDZ_cvdX0co2qblj0K" name="lack_resource_rate_limiting">
+    <mxGraphModel dx="956" dy="493" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2DJTmrhGu59-SNIFXBnp-1" value="API" style="rounded=0;whiteSpace=wrap;html=1;horizontal=0;fillColor=#dae8fc;strokeColor=#6c8ebf;fontFamily=Comic Sans MS;comic=0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="230" width="40" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="2DJTmrhGu59-SNIFXBnp-5" value="An attacker sends thousands of requests per second to the API" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;comic=0;" vertex="1" parent="1">
+          <mxGeometry x="107.2" y="176" width="185.6" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="2DJTmrhGu59-SNIFXBnp-27" value="" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;dashed=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="140" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2DJTmrhGu59-SNIFXBnp-28" value="" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image;image=img/lib/active_directory/generic_server.svg;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="160" y="225" width="16.8" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2DJTmrhGu59-SNIFXBnp-29" value="" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image;image=img/lib/active_directory/generic_server.svg;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="180" y="225" width="16.8" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2DJTmrhGu59-SNIFXBnp-30" value="" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image;image=img/lib/active_directory/generic_server.svg;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="200" y="225" width="16.8" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2DJTmrhGu59-SNIFXBnp-31" value="" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image;image=img/lib/active_directory/generic_server.svg;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="220" y="225" width="16.8" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2DJTmrhGu59-SNIFXBnp-32" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.922;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;strokeWidth=2;fillColor=#e51400;strokeColor=#B20000;fontFamily=Comic Sans MS;" edge="1" parent="1" source="2DJTmrhGu59-SNIFXBnp-27">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="438" y="400" as="sourcePoint" />
+            <mxPoint x="338" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2DJTmrhGu59-SNIFXBnp-33" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;exitX=0.688;exitY=1.027;exitDx=0;exitDy=0;exitPerimeter=0;fillColor=#e51400;strokeColor=#B20000;fontFamily=Comic Sans MS;" edge="1" parent="1" source="2DJTmrhGu59-SNIFXBnp-27">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="438" y="400" as="sourcePoint" />
+            <mxPoint x="338" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2DJTmrhGu59-SNIFXBnp-34" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;exitX=0.408;exitY=0.987;exitDx=0;exitDy=0;exitPerimeter=0;fillColor=#e51400;strokeColor=#B20000;fontFamily=Comic Sans MS;" edge="1" parent="1" source="2DJTmrhGu59-SNIFXBnp-27">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="438" y="400" as="sourcePoint" />
+            <mxPoint x="338" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2DJTmrhGu59-SNIFXBnp-35" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;exitX=0.208;exitY=1.013;exitDx=0;exitDy=0;exitPerimeter=0;fillColor=#e51400;strokeColor=#B20000;fontFamily=Comic Sans MS;" edge="1" parent="1" source="2DJTmrhGu59-SNIFXBnp-27">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="438" y="400" as="sourcePoint" />
+            <mxPoint x="338" y="300" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
