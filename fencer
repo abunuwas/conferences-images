@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-23T16:33:49.955Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="LrLCfnOLydAFvdgZScUP" version="20.8.22" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2023-02-23T16:40:18.079Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="1kiqHMvrdvie6NFPhfsD" version="20.8.22" type="github" pages="7">
   <diagram id="cpmi-uvVvtRBLQvHSzT2" name="holistic_api_security">
     <mxGraphModel dx="1434" dy="739" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -612,6 +612,37 @@
             <mxPoint x="438" y="400" as="sourcePoint" />
             <mxPoint x="338" y="300" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="diKov8WU9t_UHOCrvZmN" name="broken_function_level_auth">
+    <mxGraphModel dx="956" dy="493" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="6Hb0NfVqf54IiBhm1ytP-6" value="API" style="rounded=0;whiteSpace=wrap;html=1;horizontal=0;fillColor=#dae8fc;strokeColor=#6c8ebf;fontFamily=Comic Sans MS;comic=0;" vertex="1" parent="1">
+          <mxGeometry x="408" y="260" width="40" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="6Hb0NfVqf54IiBhm1ytP-7" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;fontFamily=Comic Sans MS;comic=0;" edge="1" parent="1" source="6Hb0NfVqf54IiBhm1ytP-8" target="6Hb0NfVqf54IiBhm1ytP-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="200" y="325" />
+              <mxPoint x="200" y="325" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6Hb0NfVqf54IiBhm1ytP-8" value="" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.devices.laptop;dashPattern=1 1;fontFamily=Comic Sans MS;comic=0;" vertex="1" parent="1">
+          <mxGeometry x="132" y="308" width="58" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="6Hb0NfVqf54IiBhm1ytP-9" value="DELETE /admin/users/5" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=#fff2cc;strokeColor=#d6b656;fontFamily=Comic Sans MS;comic=0;" vertex="1" parent="1">
+          <mxGeometry x="215" y="283.5" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6Hb0NfVqf54IiBhm1ytP-10" value="An attacker discovers an admin endpoint and uses it to delete user accounts" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;comic=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="240" width="225" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="6Hb0NfVqf54IiBhm1ytP-12" value="user" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comic Sans MS;comic=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="344" width="60" height="18" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
