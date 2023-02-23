@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-23T16:46:17.885Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="bcJJ0PtxEYjLD7-WGJ7v" version="20.8.22" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2023-02-23T22:48:09.898Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="J5OaGc9bZRXNmrGR5s1F" version="20.8.22" type="github" pages="9">
   <diagram id="cpmi-uvVvtRBLQvHSzT2" name="holistic_api_security">
     <mxGraphModel dx="1434" dy="739" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -705,10 +705,49 @@
     </mxGraphModel>
   </diagram>
   <diagram id="YAji2T_0RsfNGfeX4h8W" name="security_misconfig">
-    <mxGraphModel dx="1434" dy="739" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="956" dy="493" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="HpPHMz2RR2u0170ZnW6P-1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontFamily=Comic Sans MS;comic=0;" edge="1" parent="1" source="HpPHMz2RR2u0170ZnW6P-6" target="HpPHMz2RR2u0170ZnW6P-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="160" y="380" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="430" y="410" />
+              <mxPoint x="160" y="410" />
+              <mxPoint x="160" y="372" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HpPHMz2RR2u0170ZnW6P-2" value="" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;strokeColor=#d6b656;fontFamily=Comic Sans MS;fontSize=12;fillColor=#fff2cc;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="380" width="510" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HpPHMz2RR2u0170ZnW6P-3" value="&lt;div&gt;{&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;error&quot;: &quot;(psycopg2.errors.SyntaxError) syntax error at or near &quot;AND&quot;\nLINE 16...&quot;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;}&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="210" y="380" width="500" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HpPHMz2RR2u0170ZnW6P-6" value="API" style="rounded=0;whiteSpace=wrap;html=1;horizontal=0;fillColor=#dae8fc;strokeColor=#6c8ebf;fontFamily=Comic Sans MS;comic=0;" vertex="1" parent="1">
+          <mxGeometry x="730" y="260" width="40" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="HpPHMz2RR2u0170ZnW6P-7" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;fontFamily=Comic Sans MS;comic=0;" edge="1" parent="1" source="HpPHMz2RR2u0170ZnW6P-8" target="HpPHMz2RR2u0170ZnW6P-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="200" y="325" />
+              <mxPoint x="200" y="325" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HpPHMz2RR2u0170ZnW6P-8" value="" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.devices.laptop;dashPattern=1 1;fontFamily=Comic Sans MS;comic=0;" vertex="1" parent="1">
+          <mxGeometry x="132" y="308" width="58" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="HpPHMz2RR2u0170ZnW6P-9" value="GET /rides/1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=#fff2cc;strokeColor=#d6b656;fontFamily=Comic Sans MS;comic=0;" vertex="1" parent="1">
+          <mxGeometry x="381" y="283.5" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HpPHMz2RR2u0170ZnW6P-11" value="The request causes an internal server error and the API leaks details of the stack trace in the repsonse" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comic Sans MS;comic=0;" vertex="1" parent="1">
+          <mxGeometry x="306" y="440" width="320" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="HpPHMz2RR2u0170ZnW6P-12" value="user" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comic Sans MS;comic=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="344" width="60" height="18" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
