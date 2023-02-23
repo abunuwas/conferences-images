@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-23T16:40:18.079Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="1kiqHMvrdvie6NFPhfsD" version="20.8.22" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2023-02-23T16:40:24.768Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="RF1djzwwO8LrthaGUIkv" version="20.8.22" type="github" pages="7">
   <diagram id="cpmi-uvVvtRBLQvHSzT2" name="holistic_api_security">
     <mxGraphModel dx="1434" dy="739" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -641,7 +641,7 @@
         <mxCell id="6Hb0NfVqf54IiBhm1ytP-10" value="An attacker discovers an admin endpoint and uses it to delete user accounts" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;comic=0;" vertex="1" parent="1">
           <mxGeometry x="190" y="240" width="225" height="34" as="geometry" />
         </mxCell>
-        <mxCell id="6Hb0NfVqf54IiBhm1ytP-12" value="user" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comic Sans MS;comic=0;" vertex="1" parent="1">
+        <mxCell id="6Hb0NfVqf54IiBhm1ytP-12" value="attacker" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comic Sans MS;comic=0;" vertex="1" parent="1">
           <mxGeometry x="130" y="344" width="60" height="18" as="geometry" />
         </mxCell>
       </root>
