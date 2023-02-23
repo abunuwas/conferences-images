@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-23T15:46:50.675Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="M3tK04VflgEYrxgyvhwK" version="20.8.22" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-02-23T16:03:12.372Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="5HvZRaHg-bEFCWr-du1R" version="20.8.22" type="github" pages="5">
   <diagram id="cpmi-uvVvtRBLQvHSzT2" name="holistic_api_security">
     <mxGraphModel dx="1434" dy="739" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -496,10 +496,70 @@
     </mxGraphModel>
   </diagram>
   <diagram id="gAA1qi2_kzGM_k_WKilV" name="excessive_data_exposure">
-    <mxGraphModel dx="1434" dy="739" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="956" dy="493" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="wFsWoH_ivN8LhbqFLNhm-3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontFamily=Comic Sans MS;comic=0;" edge="1" parent="1" source="wFsWoH_ivN8LhbqFLNhm-4" target="wFsWoH_ivN8LhbqFLNhm-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="160" y="380" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="430" y="410" />
+              <mxPoint x="160" y="410" />
+              <mxPoint x="160" y="372" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G4Z4-GW0xUtMSCqlPPfZ-1" value="" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;strokeColor=#d6b656;fontFamily=Comic Sans MS;fontSize=12;fillColor=#fff2cc;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="350" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="G4Z4-GW0xUtMSCqlPPfZ-2" value="&lt;div&gt;{&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;id&quot;: 1,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;status&quot;: &quot;completed&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;rider&quot;: {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;name&quot;: &quot;Mr Rider&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;id&quot;: 1234&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; },&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;car&quot;: {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;model&quot;: &quot;A random model&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;id&quot;: 64&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div style=&quot;&quot;&gt;}&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="210" y="360" width="180" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="G4Z4-GW0xUtMSCqlPPfZ-3" value="" style="text;html=1;strokeColor=#b85450;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontFamily=Comic Sans MS;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="238" y="435" width="60" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="G4Z4-GW0xUtMSCqlPPfZ-4" value="" style="text;html=1;strokeColor=#b85450;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontFamily=Comic Sans MS;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="228" y="494" width="60" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="wFsWoH_ivN8LhbqFLNhm-4" value="API" style="rounded=0;whiteSpace=wrap;html=1;horizontal=0;fillColor=#dae8fc;strokeColor=#6c8ebf;fontFamily=Comic Sans MS;comic=0;" vertex="1" parent="1">
+          <mxGeometry x="408" y="260" width="40" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="wFsWoH_ivN8LhbqFLNhm-5" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;fontFamily=Comic Sans MS;comic=0;" edge="1" parent="1" source="wFsWoH_ivN8LhbqFLNhm-6" target="wFsWoH_ivN8LhbqFLNhm-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="200" y="325" />
+              <mxPoint x="200" y="325" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wFsWoH_ivN8LhbqFLNhm-6" value="" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.devices.laptop;dashPattern=1 1;fontFamily=Comic Sans MS;comic=0;" vertex="1" parent="1">
+          <mxGeometry x="132" y="308" width="58" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="wFsWoH_ivN8LhbqFLNhm-19" value="GET /ride/1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=#fff2cc;strokeColor=#d6b656;fontFamily=Comic Sans MS;comic=0;" vertex="1" parent="1">
+          <mxGeometry x="215" y="283.5" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wFsWoH_ivN8LhbqFLNhm-23" value="A user requests the details of their ride" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;comic=0;" vertex="1" parent="1">
+          <mxGeometry x="180" y="249.5" width="228" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="wFsWoH_ivN8LhbqFLNhm-24" value="The API serves the requested data, and includes unnecessary details like the rider&#39;s ID and their car&#39;s ID" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comic Sans MS;comic=0;" vertex="1" parent="1">
+          <mxGeometry x="165" y="550" width="270" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="wFsWoH_ivN8LhbqFLNhm-25" value="user" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comic Sans MS;comic=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="344" width="60" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="wFsWoH_ivN8LhbqFLNhm-27" value="" style="endArrow=classic;html=1;rounded=1;comic=0;sketch=0;strokeWidth=2;fontFamily=Comic Sans MS;fontSize=12;fillColor=#f8cecc;strokeColor=#b85450;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="G4Z4-GW0xUtMSCqlPPfZ-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="130" y="443" as="sourcePoint" />
+            <mxPoint x="140" y="442.17" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wFsWoH_ivN8LhbqFLNhm-28" value="" style="endArrow=classic;html=1;rounded=1;comic=0;sketch=0;strokeWidth=2;fontFamily=Comic Sans MS;fontSize=12;fillColor=#f8cecc;strokeColor=#b85450;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="501.17" as="sourcePoint" />
+            <mxPoint x="228" y="501.17" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
