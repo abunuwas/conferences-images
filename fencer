@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-23T16:40:24.768Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="RF1djzwwO8LrthaGUIkv" version="20.8.22" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2023-02-23T16:44:47.424Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="lWcHm3KMN4rt0DoF2SpX" version="20.8.22" type="github" pages="8">
   <diagram id="cpmi-uvVvtRBLQvHSzT2" name="holistic_api_security">
     <mxGraphModel dx="1434" dy="739" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -643,6 +643,63 @@
         </mxCell>
         <mxCell id="6Hb0NfVqf54IiBhm1ytP-12" value="attacker" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comic Sans MS;comic=0;" vertex="1" parent="1">
           <mxGeometry x="130" y="344" width="60" height="18" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="6-hAJebMF7sr1Q1fg-xy" name="Page-8">
+    <mxGraphModel dx="956" dy="493" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="H-wNIn7WL0muX6yc7G2Q-19" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="243" y="100" width="317" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="H-wNIn7WL0muX6yc7G2Q-20" value="PUT /orders/&lt;span style=&quot;text-align: left;&quot;&gt;acc1225f-088a-4f57-bc2f-55a1ead8aa61&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="243" y="100" width="317" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="H-wNIn7WL0muX6yc7G2Q-21" value="API" style="rounded=0;whiteSpace=wrap;html=1;horizontal=0;fillColor=#dae8fc;strokeColor=#6c8ebf;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="623" y="145" width="40" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="H-wNIn7WL0muX6yc7G2Q-22" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;dashed=1;dashPattern=1 1;fillColor=#f9f7ed;strokeColor=#36393d;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="328.88" y="140" width="150.25" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="H-wNIn7WL0muX6yc7G2Q-23" value="&lt;div&gt;{&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;order&quot;: {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;status&quot;: &quot;paid&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;products&quot;: [{&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;product&quot;: &quot;latte&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;quantity&quot;: 2&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; }]&lt;/div&gt;&lt;div&gt;&amp;nbsp; }&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=#f9f7ed;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="338.88" y="149" width="140.25" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="H-wNIn7WL0muX6yc7G2Q-24" value="Payload" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;dashPattern=1 1;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="328.88" y="140" width="150.25" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="H-wNIn7WL0muX6yc7G2Q-25" value="attacker" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.devices.laptop;dashPattern=1 1;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="110" y="193" width="58" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="H-wNIn7WL0muX6yc7G2Q-26" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;curved=1;fillColor=#f8cecc;strokeColor=#b85450;fontFamily=Comic Sans MS;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="181" y="209.60000000000002" as="sourcePoint" />
+            <mxPoint x="231" y="209.60000000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H-wNIn7WL0muX6yc7G2Q-27" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;curved=1;fillColor=#f8cecc;strokeColor=#b85450;fontFamily=Comic Sans MS;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="563" y="209.60000000000002" as="sourcePoint" />
+            <mxPoint x="613" y="209.60000000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H-wNIn7WL0muX6yc7G2Q-30" value="" style="text;html=1;strokeColor=#b85450;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=1;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="349.63" y="183" width="96" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="H-wNIn7WL0muX6yc7G2Q-36" style="edgeStyle=orthogonalEdgeStyle;rounded=1;comic=0;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;fontFamily=Comic Sans MS;fontSize=12;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" target="H-wNIn7WL0muX6yc7G2Q-30">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="160" y="110" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="160" y="160" />
+              <mxPoint x="280" y="160" />
+              <mxPoint x="280" y="193" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H-wNIn7WL0muX6yc7G2Q-39" value="An attacker overwrites a read-only property through a PUT request, setting their order to paid" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="259" y="60" width="290" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
