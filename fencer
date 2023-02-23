@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-23T22:48:09.898Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="J5OaGc9bZRXNmrGR5s1F" version="20.8.22" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2023-02-23T23:25:15.568Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="M1eIAMdmlAn4jEvFeyU3" version="20.8.22" type="github" pages="10">
   <diagram id="cpmi-uvVvtRBLQvHSzT2" name="holistic_api_security">
     <mxGraphModel dx="1434" dy="739" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -747,6 +747,61 @@
         </mxCell>
         <mxCell id="HpPHMz2RR2u0170ZnW6P-12" value="user" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comic Sans MS;comic=0;" vertex="1" parent="1">
           <mxGeometry x="130" y="344" width="60" height="18" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="mDgAjTLuJZQtf-a0p6Xi" name="injection">
+    <mxGraphModel dx="1806" dy="493" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="3DE-DmEQHkNw1nLgu4HK-3" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#36393d;fillColor=#f9f7ed;dashed=1;fontFamily=Comic Sans MS;comic=0;" vertex="1" parent="1">
+          <mxGeometry x="440" y="200" width="420" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="3DE-DmEQHkNw1nLgu4HK-29" style="edgeStyle=orthogonalEdgeStyle;rounded=1;comic=0;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.128;entryY=1.017;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=1;fontFamily=Comic Sans MS;fontSize=12;dashed=1;" edge="1" parent="1" source="3DE-DmEQHkNw1nLgu4HK-5" target="3DE-DmEQHkNw1nLgu4HK-28">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="470" y="325" />
+              <mxPoint x="470" y="261" />
+              <mxPoint x="501" y="261" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3DE-DmEQHkNw1nLgu4HK-5" value="API" style="rounded=0;whiteSpace=wrap;html=1;horizontal=0;fillColor=#dae8fc;strokeColor=#6c8ebf;fontFamily=Comic Sans MS;comic=0;" vertex="1" parent="1">
+          <mxGeometry x="410" y="260" width="40" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="3DE-DmEQHkNw1nLgu4HK-6" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;fontFamily=Comic Sans MS;comic=0;" edge="1" parent="1" source="3DE-DmEQHkNw1nLgu4HK-7" target="3DE-DmEQHkNw1nLgu4HK-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="200" y="325" />
+              <mxPoint x="200" y="325" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3DE-DmEQHkNw1nLgu4HK-7" value="" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.devices.laptop;dashPattern=1 1;fontFamily=Comic Sans MS;comic=0;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="308" width="58" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="3DE-DmEQHkNw1nLgu4HK-20" value="GET /posts/&#39;&#39; OR 1=1; DROP TABLE users; --" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=#fff2cc;strokeColor=#d6b656;fontFamily=Comic Sans MS;comic=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="283.5" width="325" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3DE-DmEQHkNw1nLgu4HK-23" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;strokeColor=#666666;fillColor=#f5f5f5;fontColor=#333333;fontFamily=Comic Sans MS;comic=0;" vertex="1" parent="1">
+          <mxGeometry x="620" y="280" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3DE-DmEQHkNw1nLgu4HK-24" value="An attacker sends a request with a SQL injection attack through a URL path parameter" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;comic=0;" vertex="1" parent="1">
+          <mxGeometry x="102.5" y="229.5" width="260" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="3DE-DmEQHkNw1nLgu4HK-25" value="The malicious code finds it way into the query and runs against the database" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comic Sans MS;comic=0;" vertex="1" parent="1">
+          <mxGeometry x="460" y="338" width="150" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="3DE-DmEQHkNw1nLgu4HK-26" value="attacker" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comic Sans MS;comic=0;" vertex="1" parent="1">
+          <mxGeometry x="-11" y="342" width="60" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="3DE-DmEQHkNw1nLgu4HK-32" style="edgeStyle=orthogonalEdgeStyle;rounded=1;comic=0;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;strokeWidth=1;fontFamily=Comic Sans MS;fontSize=12;" edge="1" parent="1" source="3DE-DmEQHkNw1nLgu4HK-28" target="3DE-DmEQHkNw1nLgu4HK-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3DE-DmEQHkNw1nLgu4HK-28" value="SELECT * FROM posts where id = &#39;&#39; OR 1=1; DROP TABLE users; --" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=#f8cecc;strokeColor=#b85450;fontFamily=Comic Sans MS;comic=0;" vertex="1" parent="1">
+          <mxGeometry x="450" y="210.5" width="400" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
