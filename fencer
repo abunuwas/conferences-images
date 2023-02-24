@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-24T08:35:46.360Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="p9zigtysCrB2AwE-liVd" version="20.8.22" type="github" pages="11">
+<mxfile host="app.diagrams.net" modified="2023-02-24T09:00:00.972Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="97FNkdERksSfnlyX3MyH" version="20.8.22" type="github" pages="12">
   <diagram id="cpmi-uvVvtRBLQvHSzT2" name="holistic_api_security">
     <mxGraphModel dx="1434" dy="739" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -872,6 +872,58 @@
         </mxCell>
         <mxCell id="X0NSreuN3IqASMdD0j4u-4" value="An attacker discovers the older version and attempts to exploit its vulnerabilities" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontFamily=Comic Sans MS;" vertex="1" parent="1">
           <mxGeometry x="261" y="20" width="165" height="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="8T0YJXtTTBGzfH5VrBxc" name="insufficient_logging">
+    <mxGraphModel dx="956" dy="493" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="7ePByVfc5wzQuoFy1s3R-1" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#36393d;fillColor=#f9f7ed;dashed=1;fontFamily=Comic Sans MS;comic=0;" vertex="1" parent="1">
+          <mxGeometry x="460" y="220" width="60" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="7ePByVfc5wzQuoFy1s3R-8" style="edgeStyle=orthogonalEdgeStyle;rounded=1;comic=0;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;strokeWidth=1;fontFamily=Comic Sans MS;fontSize=12;" edge="1" parent="1" source="gaJOZ5C3-yhq22KBTkba-3" target="7ePByVfc5wzQuoFy1s3R-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gaJOZ5C3-yhq22KBTkba-3" value="API" style="rounded=0;whiteSpace=wrap;html=1;horizontal=0;fillColor=#dae8fc;strokeColor=#6c8ebf;fontFamily=Comic Sans MS;comic=0;" vertex="1" parent="1">
+          <mxGeometry x="370" y="260" width="40" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="gaJOZ5C3-yhq22KBTkba-4" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;fontFamily=Comic Sans MS;comic=0;" edge="1" parent="1" source="gaJOZ5C3-yhq22KBTkba-5" target="gaJOZ5C3-yhq22KBTkba-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="251" y="325" />
+              <mxPoint x="251" y="325" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gaJOZ5C3-yhq22KBTkba-5" value="" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.devices.laptop;dashPattern=1 1;fontFamily=Comic Sans MS;comic=0;" vertex="1" parent="1">
+          <mxGeometry x="140" y="308" width="58" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="gaJOZ5C3-yhq22KBTkba-8" value="A malicious user successfully launches an API data breach attack" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;comic=0;" vertex="1" parent="1">
+          <mxGeometry x="210" y="260" width="150" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="gaJOZ5C3-yhq22KBTkba-10" value="attacker" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comic Sans MS;comic=0;" vertex="1" parent="1">
+          <mxGeometry x="139" y="342" width="60" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="gaJOZ5C3-yhq22KBTkba-17" value="" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.document;strokeWidth=1;fontFamily=Comic Sans MS;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="471" y="230" width="16" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7ePByVfc5wzQuoFy1s3R-2" value="" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.document;strokeWidth=1;fontFamily=Comic Sans MS;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="493" y="230" width="16" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7ePByVfc5wzQuoFy1s3R-3" value="" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.document;strokeWidth=1;fontFamily=Comic Sans MS;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="493" y="260" width="16" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7ePByVfc5wzQuoFy1s3R-5" value="" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.document;strokeWidth=1;fontFamily=Comic Sans MS;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="471" y="260" width="16" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7ePByVfc5wzQuoFy1s3R-9" value="Traffic logs" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="450" y="190" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7ePByVfc5wzQuoFy1s3R-10" value="Logs are stored in a centralized database but they&#39;re not actively monitored, so we don&#39;t get alerted by the data breach" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;comic=0;" vertex="1" parent="1">
+          <mxGeometry x="414" y="327" width="235" height="54" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
