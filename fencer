@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-24T08:31:38.648Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="RcMVYvm-HaiOERQMv4rC" version="20.8.22" type="github" pages="11">
+<mxfile host="app.diagrams.net" modified="2023-02-24T08:35:46.360Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="p9zigtysCrB2AwE-liVd" version="20.8.22" type="github" pages="11">
   <diagram id="cpmi-uvVvtRBLQvHSzT2" name="holistic_api_security">
     <mxGraphModel dx="1434" dy="739" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -871,7 +871,7 @@
           <mxGeometry x="180" y="173" width="60" height="18" as="geometry" />
         </mxCell>
         <mxCell id="X0NSreuN3IqASMdD0j4u-4" value="An attacker discovers the older version and attempts to exploit its vulnerabilities" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontFamily=Comic Sans MS;" vertex="1" parent="1">
-          <mxGeometry x="275" y="20" width="170" height="70" as="geometry" />
+          <mxGeometry x="261" y="20" width="165" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
