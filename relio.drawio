@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-31T12:17:33.869Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="658D73CmCsH8B7FvmigY" version="21.1.2" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-03-31T12:23:22.311Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="JUSrDSi_yv1WjKg-fNoS" version="21.1.2" type="github" pages="4">
   <diagram name="drift" id="WxVn4FK3oKeByT_McGPp">
     <mxGraphModel dx="1147" dy="637" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -98,10 +98,117 @@
     </mxGraphModel>
   </diagram>
   <diagram id="0hwEqMquyXrHtvXieHdE" name="manual qa">
-    <mxGraphModel dx="1434" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1147" dy="637" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="svqhWWxXV18wwjNMfHiU-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="svqhWWxXV18wwjNMfHiU-4" target="svqhWWxXV18wwjNMfHiU-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="svqhWWxXV18wwjNMfHiU-4" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="140" width="140" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="svqhWWxXV18wwjNMfHiU-1" value="Staging environment" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/generic_server.svg;" vertex="1" parent="1">
+          <mxGeometry x="450" y="300" width="28.000000000000004" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="svqhWWxXV18wwjNMfHiU-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="svqhWWxXV18wwjNMfHiU-2" target="svqhWWxXV18wwjNMfHiU-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="svqhWWxXV18wwjNMfHiU-2" value="" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.azure.laptop" vertex="1" parent="1">
+          <mxGeometry x="130" y="240" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="svqhWWxXV18wwjNMfHiU-3" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-social-github-128.png" vertex="1" parent="1">
+          <mxGeometry x="260" y="150" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="svqhWWxXV18wwjNMfHiU-6" value="" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.code_file" vertex="1" parent="1">
+          <mxGeometry x="310" y="170" width="49" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="DJqCFbCPjnd2V0Nnkgsd-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3AIyCQaHqtv-nq-kCl0s-1" target="svqhWWxXV18wwjNMfHiU-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3AIyCQaHqtv-nq-kCl0s-1" value="" style="shape=actor;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="625" y="200" width="30" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3AIyCQaHqtv-nq-kCl0s-2" value="" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.azure.laptop" vertex="1" parent="1">
+          <mxGeometry x="675" y="190" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3AIyCQaHqtv-nq-kCl0s-3" value="QA tester verifies the new changes work" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="580" y="250" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DJqCFbCPjnd2V0Nnkgsd-1" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/bootstrap-vol-3/16/filetype-yml-128.png" vertex="1" parent="1">
+          <mxGeometry x="710" y="250" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DJqCFbCPjnd2V0Nnkgsd-2" value="Developer makes changes to the API" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="95" y="280" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DJqCFbCPjnd2V0Nnkgsd-3" value="API changes are deployed to staging environment" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="400" y="160" width="150" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="g88MoeQRoGqL9zDPxOdZ" name="fuzzy testing">
+    <mxGraphModel dx="956" dy="531" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="gQ21fvB_Q01tpDpYvfLB-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="130" width="210" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="gQ21fvB_Q01tpDpYvfLB-2" value="" style="shape=actor;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="210" width="30" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gQ21fvB_Q01tpDpYvfLB-3" value="" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.azure.laptop" vertex="1" parent="1">
+          <mxGeometry x="200" y="200" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gQ21fvB_Q01tpDpYvfLB-4" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-social-github-128.png" vertex="1" parent="1">
+          <mxGeometry x="415" y="140" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gQ21fvB_Q01tpDpYvfLB-5" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/phosphor-bold-vol-3-1/256/git-pull-request-duotone-128.png" vertex="1" parent="1">
+          <mxGeometry x="310" y="190" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gQ21fvB_Q01tpDpYvfLB-6" value="" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.code_file" vertex="1" parent="1">
+          <mxGeometry x="435" y="175" width="49" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gQ21fvB_Q01tpDpYvfLB-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="gQ21fvB_Q01tpDpYvfLB-7" target="gQ21fvB_Q01tpDpYvfLB-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gQ21fvB_Q01tpDpYvfLB-7" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/bootstrap-vol-3/16/filetype-yml-128.png" vertex="1" parent="1">
+          <mxGeometry x="540" y="172.5" width="55" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="gQ21fvB_Q01tpDpYvfLB-10" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="270" y="214.6" as="sourcePoint" />
+            <mxPoint x="300" y="214.6" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gQ21fvB_Q01tpDpYvfLB-11" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="363" y="214.6" as="sourcePoint" />
+            <mxPoint x="393" y="214.6" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gQ21fvB_Q01tpDpYvfLB-12" value="Developer makes changes to the API" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="105" y="260" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gQ21fvB_Q01tpDpYvfLB-14" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;width=5.333333333333333;endSize=3;endWidth=10.222222222222223;startWidth=10.222222222222223;startSize=3.6666666666666665;" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="490" y="199.6" as="sourcePoint" />
+            <mxPoint x="540" y="199.6" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gQ21fvB_Q01tpDpYvfLB-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="gQ21fvB_Q01tpDpYvfLB-15" target="gQ21fvB_Q01tpDpYvfLB-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gQ21fvB_Q01tpDpYvfLB-15" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="455" y="267" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gQ21fvB_Q01tpDpYvfLB-16" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/faticons-2/30/wheel4-128.png" vertex="1" parent="1">
+          <mxGeometry x="505" y="301" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gQ21fvB_Q01tpDpYvfLB-17" value="Fuzzy tester" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="458" y="267" width="115" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
