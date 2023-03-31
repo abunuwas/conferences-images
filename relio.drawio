@@ -1,31 +1,31 @@
-<mxfile host="app.diagrams.net" modified="2023-03-31T14:32:47.106Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="S5-wxrGlG5SxAFS5EJI_" version="21.1.2" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-03-31T15:11:28.129Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="GQTpvAstptzY4TeJoT6T" version="21.1.2" type="github" pages="4">
   <diagram name="drift" id="WxVn4FK3oKeByT_McGPp">
-    <mxGraphModel dx="1147" dy="637" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="956" dy="531" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="cQ4X8xgBCTPwybj78X8C-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="cQ4X8xgBCTPwybj78X8C-2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="400" y="210" width="160" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="cQ4X8xgBCTPwybj78X8C-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="cQ4X8xgBCTPwybj78X8C-3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="110" y="50" width="140" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="cQ4X8xgBCTPwybj78X8C-4" value="@server.(&#39;/posts&#39;)&lt;br&gt;def list_posts(page: str):&lt;br&gt;&amp;nbsp; &amp;nbsp; pass" style="rounded=0;whiteSpace=wrap;html=1;align=left;strokeColor=none;" vertex="1" parent="1">
+        <mxCell id="cQ4X8xgBCTPwybj78X8C-4" value="@server.(&#39;/posts&#39;)&lt;br&gt;def list_posts(&lt;b&gt;page: str&lt;/b&gt;):&lt;br&gt;&amp;nbsp; &amp;nbsp; pass" style="rounded=0;whiteSpace=wrap;html=1;align=left;strokeColor=none;fillColor=#dae8fc;" vertex="1" parent="1">
           <mxGeometry x="410" y="220" width="140" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="cQ4X8xgBCTPwybj78X8C-5" value="paths:&lt;br&gt;&amp;nbsp; posts:&lt;br&gt;&amp;nbsp; &amp;nbsp; get:&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; parameters:&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; - name: page&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; schema:&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; type: integer&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; ..." style="rounded=0;whiteSpace=wrap;html=1;align=left;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="120" y="60" width="110" height="120" as="geometry" />
+        <mxCell id="cQ4X8xgBCTPwybj78X8C-5" value="paths:&lt;br&gt;&amp;nbsp; posts:&lt;br&gt;&amp;nbsp; &amp;nbsp; get:&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; parameters:&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; - name: page&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; schema:&lt;br&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; type: integer&lt;/b&gt;&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; ..." style="rounded=0;whiteSpace=wrap;html=1;align=left;strokeColor=none;fillColor=#f5f5f5;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="120" y="60" width="120" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="cQ4X8xgBCTPwybj78X8C-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="cQ4X8xgBCTPwybj78X8C-6" target="cQ4X8xgBCTPwybj78X8C-7">
+        <mxCell id="cQ4X8xgBCTPwybj78X8C-8" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="cQ4X8xgBCTPwybj78X8C-6" target="cQ4X8xgBCTPwybj78X8C-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="cQ4X8xgBCTPwybj78X8C-6" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="153" y="147" width="77" height="20" as="geometry" />
+          <mxGeometry x="153" y="147" width="87" height="20" as="geometry" />
         </mxCell>
         <mxCell id="cQ4X8xgBCTPwybj78X8C-7" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="480" y="245" width="60" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="cQ4X8xgBCTPwybj78X8C-9" value="page parameter:&lt;br&gt;&lt;br&gt;integer != str" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="cQ4X8xgBCTPwybj78X8C-9" value="page parameter:&lt;br&gt;&lt;br&gt;integer != str" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="315" y="84" width="110" height="63" as="geometry" />
         </mxCell>
       </root>
