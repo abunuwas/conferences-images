@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-11T14:11:43.208Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="7EfL6VPMPsKJNtpPLpuA" version="21.1.5" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-04-11T14:12:47.205Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="MD4_F8kBt0hBVbmX52Wk" version="21.1.5" type="github" pages="2">
   <diagram id="w65AgEcsbwL5PO4EomMU" name="Page-1">
     <mxGraphModel dx="1306" dy="868" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -585,13 +585,15 @@
         <mxCell id="X9hgIbNBHiSHphT8_-n9-102" value="+ candidate: relationship(Candidate)" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1">
           <mxGeometry x="1390" y="264" width="210" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="X9hgIbNBHiSHphT8_-n9-103" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.005;entryY=0.077;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="X9hgIbNBHiSHphT8_-n9-77" target="X9hgIbNBHiSHphT8_-n9-53">
+        <mxCell id="X9hgIbNBHiSHphT8_-n9-103" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="X9hgIbNBHiSHphT8_-n9-77">
           <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1350" y="306" as="targetPoint" />
             <Array as="points">
               <mxPoint x="1620" y="199" />
               <mxPoint x="1620" y="360" />
               <mxPoint x="1380" y="360" />
               <mxPoint x="1380" y="306" />
+              <mxPoint x="1350" y="306" />
             </Array>
           </mxGeometry>
         </mxCell>
