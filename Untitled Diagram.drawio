@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-18T22:27:05.504Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="RWO1DXQiOzBBVYvskzWZ" version="21.3.8" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-06-18T22:27:18.548Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="ux29544h2x-asUQ0bUxm" version="21.3.8" type="github" pages="3">
   <diagram id="w65AgEcsbwL5PO4EomMU" name="Page-1">
     <mxGraphModel dx="1434" dy="828" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -703,7 +703,7 @@
         <mxCell id="oqWOHCHv598hPNsb7K3J-10" value="Sends email notifications when changes a requested" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="585" y="450" width="130" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="oqWOHCHv598hPNsb7K3J-18" value="Account management, user management, granular permissions management" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
+        <mxCell id="oqWOHCHv598hPNsb7K3J-18" value="Account management, user management, granular permissions management" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fillColor=default;" vertex="1" parent="1">
           <mxGeometry x="565" y="130" width="170" height="70" as="geometry" />
         </mxCell>
         <mxCell id="oqWOHCHv598hPNsb7K3J-23" value="Private network" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
