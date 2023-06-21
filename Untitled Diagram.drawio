@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-21T08:30:35.261Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="vAOK-tlk7W22lcYFBsxo" version="21.5.0" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-06-21T09:42:32.333Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="5A6kFl9CIvNCqaXSdNE7" version="21.5.0" type="github" pages="3">
   <diagram id="w65AgEcsbwL5PO4EomMU" name="Page-1">
     <mxGraphModel dx="1434" dy="828" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -735,7 +735,7 @@
           <mxGeometry x="780" y="375" width="60" height="90" as="geometry" />
         </mxCell>
         <mxCell id="q5LIQmY8_P4UhO7uIoxB-7" value="Occasional call to the JWKS endpoint" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="395" y="260" width="140" height="41" as="geometry" />
+          <mxGeometry x="377" y="260" width="140" height="41" as="geometry" />
         </mxCell>
         <mxCell id="q5LIQmY8_P4UhO7uIoxB-8" value="Consulting &amp;amp; decomissioning" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fillColor=default;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="535" y="360" width="170" height="30" as="geometry" />
@@ -744,7 +744,7 @@
           <mxGeometry x="780" y="265" width="60" height="90" as="geometry" />
         </mxCell>
         <mxCell id="q5LIQmY8_P4UhO7uIoxB-14" value="Hydra stores project files in S3 and produces signed URLs to upload and download them" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="335" y="650" width="180" height="61" as="geometry" />
+          <mxGeometry x="335" y="654" width="180" height="61" as="geometry" />
         </mxCell>
         <mxCell id="q5LIQmY8_P4UhO7uIoxB-16" value="The client uploads and downloads files directly using the signed URLs" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="100" y="549.5" width="150" height="61" as="geometry" />
