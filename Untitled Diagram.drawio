@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-21T08:28:58.440Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="xMTzgh3EHLj_Qc1L9d6d" version="21.5.0" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-06-21T08:30:35.261Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="vAOK-tlk7W22lcYFBsxo" version="21.5.0" type="github" pages="3">
   <diagram id="w65AgEcsbwL5PO4EomMU" name="Page-1">
     <mxGraphModel dx="1434" dy="828" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -677,7 +677,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="oqWOHCHv598hPNsb7K3J-5" value="Cloudfare CND" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="365" y="450" width="120" height="60" as="geometry" />
+          <mxGeometry x="350" y="450" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="oqWOHCHv598hPNsb7K3J-20" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="oqWOHCHv598hPNsb7K3J-6" target="oqWOHCHv598hPNsb7K3J-9" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -686,15 +686,13 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="q5LIQmY8_P4UhO7uIoxB-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oqWOHCHv598hPNsb7K3J-6" target="q5LIQmY8_P4UhO7uIoxB-5">
+        <mxCell id="q5LIQmY8_P4UhO7uIoxB-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="q5LIQmY8_P4UhO7uIoxB-18" target="q5LIQmY8_P4UhO7uIoxB-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="q5LIQmY8_P4UhO7uIoxB-13" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oqWOHCHv598hPNsb7K3J-6" target="q5LIQmY8_P4UhO7uIoxB-4">
+        <mxCell id="q5LIQmY8_P4UhO7uIoxB-13" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="oqWOHCHv598hPNsb7K3J-6" target="q5LIQmY8_P4UhO7uIoxB-4">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="620" y="580" />
-              <mxPoint x="470" y="580" />
-              <mxPoint x="470" y="605" />
+              <mxPoint x="590" y="605" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -750,6 +748,18 @@
         </mxCell>
         <mxCell id="q5LIQmY8_P4UhO7uIoxB-16" value="The client uploads and downloads files directly using the signed URLs" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="100" y="549.5" width="150" height="61" as="geometry" />
+        </mxCell>
+        <mxCell id="q5LIQmY8_P4UhO7uIoxB-17" value="NAT Gateway" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.vpc_nat_gateway;fillColor=#F58534;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="705" y="284" width="50" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="q5LIQmY8_P4UhO7uIoxB-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oqWOHCHv598hPNsb7K3J-6" target="q5LIQmY8_P4UhO7uIoxB-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="680" y="420" as="sourcePoint" />
+            <mxPoint x="780" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q5LIQmY8_P4UhO7uIoxB-18" value="NAT Gateway" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.vpc_nat_gateway;fillColor=#F58534;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="705" y="394" width="50" height="52" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
