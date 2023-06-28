@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-28T13:45:29.762Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="IcKfJ3nDzsezh7JgZZkV" version="21.5.1" type="github" pages="11">
+<mxfile host="app.diagrams.net" modified="2023-06-28T13:46:31.191Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="f4YcweasgR4uZen9z79-" version="21.5.1" type="github" pages="11">
   <diagram name="payment process" id="My9GCo4O5oD9p0zyFy0g">
     <mxGraphModel dx="1434" dy="776" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -322,6 +322,9 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="N6YzrfgD6v602IPSWiEw-15" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="30" width="770" height="360" as="geometry" />
+        </mxCell>
         <mxCell id="N6YzrfgD6v602IPSWiEw-1" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.gear;" vertex="1" parent="1">
           <mxGeometry x="180" y="178" width="40" height="40" as="geometry" />
         </mxCell>
@@ -367,6 +370,9 @@
         </mxCell>
         <mxCell id="N6YzrfgD6v602IPSWiEw-11" value="" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.azure.laptop" vertex="1" parent="1">
           <mxGeometry x="520" y="310" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="N6YzrfgD6v602IPSWiEw-14" value="VS" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=50;fontColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="440" y="168" width="110" height="82" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
