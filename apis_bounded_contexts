@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-28T14:06:22.038Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="lnIldhxasweu2k2YTKeg" version="21.5.1" type="github" pages="11">
+<mxfile host="app.diagrams.net" modified="2023-06-28T14:06:53.924Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="JP3rkVeREpLo_5eSMEhs" version="21.5.1" type="github" pages="11">
   <diagram name="payment process" id="My9GCo4O5oD9p0zyFy0g">
     <mxGraphModel dx="1434" dy="776" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -384,10 +384,13 @@
     </mxGraphModel>
   </diagram>
   <diagram id="s0cmp7qjAP4iGoqVgYXd" name="bad api design vs software">
-    <mxGraphModel dx="717" dy="414" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1997" dy="662" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Xv2bFouysJRykYK5Cu_2-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-30" width="900" height="430" as="geometry" />
+        </mxCell>
         <mxCell id="nR1X0QIHpT6NgPNQOD5e-1" value="API" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="120" y="170" width="120" height="60" as="geometry" />
         </mxCell>
@@ -481,6 +484,9 @@
         </mxCell>
         <mxCell id="nR1X0QIHpT6NgPNQOD5e-30" value="Module B" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="660" y="196" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Xv2bFouysJRykYK5Cu_2-1" value="VS" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=50;fontColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="330" y="171" width="110" height="82" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
