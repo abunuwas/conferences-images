@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-01T15:27:31.466Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="KwzBz5fBNLUnJc9Rr5v2" version="21.6.5" type="github" pages="13">
+<mxfile host="app.diagrams.net" modified="2023-08-01T15:27:40.908Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="oUj0viF8Vyy4VwrvSug5" version="21.6.5" type="github" pages="13">
   <diagram id="cpmi-uvVvtRBLQvHSzT2" name="holistic_api_security">
     <mxGraphModel dx="1434" dy="822" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -990,7 +990,7 @@
         <mxCell id="jeh8zKvfm6a_J37vvYBk-7" value="" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image;image=img/lib/active_directory/generic_server.svg;fontFamily=Comic Sans MS;" vertex="1" parent="1">
           <mxGeometry x="220" y="225" width="16.8" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="jeh8zKvfm6a_J37vvYBk-16" value="user/password&lt;br&gt;combinations" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;comic=0;dashed=1;" vertex="1" parent="1">
+        <mxCell id="jeh8zKvfm6a_J37vvYBk-16" value="user/password&lt;br&gt;combinations" style="text;html=1;strokeColor=#b85450;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;comic=0;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="280" y="220" width="100" height="35" as="geometry" />
         </mxCell>
       </root>
