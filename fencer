@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-01T14:51:24.251Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="Cf92BngV9jnY6XkxHOPi" version="21.6.5" type="github" pages="12">
+<mxfile host="app.diagrams.net" modified="2023-08-01T14:51:33.433Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="Bqnb9U1QP-NJRi8OQ62j" version="21.6.5" type="github" pages="12">
   <diagram id="cpmi-uvVvtRBLQvHSzT2" name="holistic_api_security">
     <mxGraphModel dx="1434" dy="822" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -345,7 +345,7 @@
         <mxCell id="MWAVY4D77uqw74QsOv3j-9" value="An attacker tries to delete a post that doesn&#39;t belong to them" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comic Sans MS;" parent="1" vertex="1">
           <mxGeometry x="200" y="156" width="200" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="MWAVY4D77uqw74QsOv3j-10" value="The API fails to check access permissions and serves the requested data" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comic Sans MS;" parent="1" vertex="1">
+        <mxCell id="MWAVY4D77uqw74QsOv3j-10" value="The API fails to check access permissions and deletes the post" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comic Sans MS;" parent="1" vertex="1">
           <mxGeometry x="217.5" y="350" width="165" height="54" as="geometry" />
         </mxCell>
         <mxCell id="MWAVY4D77uqw74QsOv3j-14" value="attacker" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comic Sans MS;" parent="1" vertex="1">
