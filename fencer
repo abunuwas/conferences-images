@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-01T16:05:53.599Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="jmpusLuoEXOvFNICg5fS" version="21.6.5" type="github" pages="15">
+<mxfile host="app.diagrams.net" modified="2023-08-01T16:05:59.629Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="LdxkQU1YAawZMjFC2zNv" version="21.6.5" type="github" pages="15">
   <diagram id="cpmi-uvVvtRBLQvHSzT2" name="holistic_api_security">
     <mxGraphModel dx="1434" dy="822" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1058,7 +1058,7 @@
           <mxGeometry x="345" y="225" width="40" height="130" as="geometry" />
         </mxCell>
         <mxCell id="t3TeMfh5CZkAAwEgNJoO-2" value="On the occasion of a new product launch on an e-commerce website, an attacker launches a distributed process from multiple servers to acquire the whole stock of the new product" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;comic=0;" vertex="1" parent="1">
-          <mxGeometry x="140" y="140" width="340" height="58" as="geometry" />
+          <mxGeometry x="140" y="150" width="340" height="58" as="geometry" />
         </mxCell>
         <mxCell id="t3TeMfh5CZkAAwEgNJoO-3" value="" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;dashed=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="140" y="210" width="120" height="60" as="geometry" />
