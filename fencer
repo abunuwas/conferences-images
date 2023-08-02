@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-02T06:57:09.728Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="ZS8GYU5V6dnuLyHL4enE" version="21.6.5" type="github" pages="16">
+<mxfile host="app.diagrams.net" modified="2023-08-02T08:20:44.031Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="fbs2B6xPxhNfo5tNfl77" version="21.6.5" type="github" pages="17">
   <diagram id="cpmi-uvVvtRBLQvHSzT2" name="holistic_api_security">
     <mxGraphModel dx="1434" dy="822" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1120,7 +1120,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="57Pbm79ZuDMi9cgIKfnE" name="Page-16">
+  <diagram id="57Pbm79ZuDMi9cgIKfnE" name="ssrf">
     <mxGraphModel dx="956" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -1157,6 +1157,86 @@
         </mxCell>
         <mxCell id="eNXNDNqq_Q8bGHZe-2Cb-16" value="The API responds by forwarding the expected &quot;Empty reply&quot; response from the PostgreSQL server." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comic Sans MS;" vertex="1" parent="1">
           <mxGeometry x="150" y="380" width="240" height="54" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="whLsofA8d2i8dXNich5I" name="unsafe consumption">
+    <mxGraphModel dx="956" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="WTePY8In2_HCy674KpDz-16" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WTePY8In2_HCy674KpDz-2" target="WTePY8In2_HCy674KpDz-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WTePY8In2_HCy674KpDz-18" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=37.5;entryPerimeter=0;" edge="1" parent="1" source="WTePY8In2_HCy674KpDz-2" target="WTePY8In2_HCy674KpDz-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="420" y="245" />
+              <mxPoint x="420" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WTePY8In2_HCy674KpDz-2" value="API" style="rounded=0;whiteSpace=wrap;html=1;horizontal=0;fillColor=#dae8fc;strokeColor=#6c8ebf;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="350" y="180" width="40" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="WTePY8In2_HCy674KpDz-12" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="WTePY8In2_HCy674KpDz-4" target="WTePY8In2_HCy674KpDz-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="160" y="85" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WTePY8In2_HCy674KpDz-14" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WTePY8In2_HCy674KpDz-4" target="WTePY8In2_HCy674KpDz-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="170" y="208" />
+              <mxPoint x="190" y="208" />
+              <mxPoint x="190" y="195" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WTePY8In2_HCy674KpDz-4" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.devices.laptop;dashPattern=1 1;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="132" y="228" width="58" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="WTePY8In2_HCy674KpDz-19" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WTePY8In2_HCy674KpDz-5" target="WTePY8In2_HCy674KpDz-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="275" y="230" />
+              <mxPoint x="330" y="230" />
+              <mxPoint x="330" y="245" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WTePY8In2_HCy674KpDz-5" value="POST /register" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=#fff2cc;strokeColor=#d6b656;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="210" y="180" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WTePY8In2_HCy674KpDz-6" value="An attacker sets their surname to a malicious SQL statement in their identity provider" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="205" y="20" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="WTePY8In2_HCy674KpDz-7" value="attacker" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="130" y="264" width="60" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="WTePY8In2_HCy674KpDz-8" value="insert into users (name, surname...)&lt;br&gt;&lt;div style=&quot;&quot;&gt;values (&#39;John&#39;, (select id from orders where user_id = 1=1;&lt;span style=&quot;background-color: initial;&quot;&gt;));&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=#fff2cc;strokeColor=#d6b656;fontFamily=Comic Sans MS;align=left;spacingLeft=6;" vertex="1" parent="1">
+          <mxGeometry x="267.5" y="354" width="382.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WTePY8In2_HCy674KpDz-9" value="The malicious SQL statement gets executed against our database" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="267.5" y="328" width="380" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="WTePY8In2_HCy674KpDz-10" value="Identity server" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/generic_server.svg;" vertex="1" parent="1">
+          <mxGeometry x="473.5" y="80" width="28.000000000000004" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="WTePY8In2_HCy674KpDz-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WTePY8In2_HCy674KpDz-11" target="WTePY8In2_HCy674KpDz-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WTePY8In2_HCy674KpDz-11" value="PATCH /user&lt;br&gt;{&quot;address&quot;: &quot;select id &lt;br&gt;from orders where user_id = 1=1;&quot;}" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=#fff2cc;strokeColor=#d6b656;fontFamily=Comic Sans MS;align=left;spacingLeft=8;" vertex="1" parent="1">
+          <mxGeometry x="205" y="70" width="215" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WTePY8In2_HCy674KpDz-15" value="When the user registers with our API, we pull their surname from the identity server" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="195" y="130" width="250" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="WTePY8In2_HCy674KpDz-17" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="460" y="262" width="40" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
