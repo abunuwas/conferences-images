@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-11T14:32:07.721Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="98o5s7mM3vUsf4xNqJJ9" version="21.6.6" type="github" pages="19">
+<mxfile host="app.diagrams.net" modified="2023-09-11T14:32:39.887Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="tTH9YVb_h6V0pM8oi48Q" version="21.6.6" type="github" pages="19">
   <diagram id="cpmi-uvVvtRBLQvHSzT2" name="holistic_api_security">
     <mxGraphModel dx="1306" dy="862" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1287,7 +1287,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="4fEmSfvW3A8SJAP9leC2" name="unbound parameters">
-    <mxGraphModel dx="1045" dy="690" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="871" dy="575" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1341,6 +1341,9 @@
         </mxCell>
         <mxCell id="MNSzYRHBQIGbpslSWX2V-15" value="..." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="302.5" y="405" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MNSzYRHBQIGbpslSWX2V-17" value="The API is unable to serve the request&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comic Sans MS;comic=0;" vertex="1" parent="1">
+          <mxGeometry x="330" y="362" width="250" height="43.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
