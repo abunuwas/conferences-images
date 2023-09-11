@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-11T14:43:05.263Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="8enAjSig7u9klLrYEA29" version="21.6.6" type="github" pages="20">
+<mxfile host="app.diagrams.net" modified="2023-09-11T14:43:51.757Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="H2X9_NO6RLEP9u4Cb2I4" version="21.6.6" type="github" pages="20">
   <diagram id="cpmi-uvVvtRBLQvHSzT2" name="holistic_api_security">
     <mxGraphModel dx="1306" dy="862" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1253,16 +1253,16 @@
           <mxGeometry x="243" y="100" width="317" height="30" as="geometry" />
         </mxCell>
         <mxCell id="b_wTOoE_V9LIjZZrbfxE-3" value="API" style="rounded=0;whiteSpace=wrap;html=1;horizontal=0;fillColor=#dae8fc;strokeColor=#6c8ebf;fontFamily=Comic Sans MS;" vertex="1" parent="1">
-          <mxGeometry x="750" y="10" width="40" height="130" as="geometry" />
+          <mxGeometry x="710" y="135" width="40" height="130" as="geometry" />
         </mxCell>
         <mxCell id="b_wTOoE_V9LIjZZrbfxE-4" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;dashed=1;dashPattern=1 1;fillColor=#f9f7ed;strokeColor=#36393d;fontFamily=Comic Sans MS;" vertex="1" parent="1">
-          <mxGeometry x="259" y="140" width="150.25" height="150" as="geometry" />
+          <mxGeometry x="259" y="140" width="371" height="150" as="geometry" />
         </mxCell>
         <mxCell id="b_wTOoE_V9LIjZZrbfxE-5" value="&lt;div&gt;{&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;amount&quot;: 1000,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;currency&quot;: &quot;GBP&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;status&quot;: &quot;sent&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;merchant&quot;: &quot;525855e9-67eb-4c68-85bc-0b0dc0146f9f&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;account&quot;: &quot;AD1400080001001234567890&quot;,&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;}&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=#f9f7ed;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comic Sans MS;" vertex="1" parent="1">
           <mxGeometry x="269" y="150" width="351" height="140" as="geometry" />
         </mxCell>
         <mxCell id="b_wTOoE_V9LIjZZrbfxE-6" value="Payload" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;dashPattern=1 1;fontFamily=Comic Sans MS;" vertex="1" parent="1">
-          <mxGeometry x="259" y="140" width="150.25" height="20" as="geometry" />
+          <mxGeometry x="259" y="140" width="371" height="20" as="geometry" />
         </mxCell>
         <mxCell id="b_wTOoE_V9LIjZZrbfxE-7" value="attacker" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.devices.laptop;dashPattern=1 1;fontFamily=Comic Sans MS;" vertex="1" parent="1">
           <mxGeometry x="110" y="193" width="58" height="34" as="geometry" />
@@ -1275,8 +1275,8 @@
         </mxCell>
         <mxCell id="b_wTOoE_V9LIjZZrbfxE-9" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;curved=1;fillColor=#f8cecc;strokeColor=#b85450;fontFamily=Comic Sans MS;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="493.12" y="209.60000000000002" as="sourcePoint" />
-            <mxPoint x="543.12" y="209.60000000000002" as="targetPoint" />
+            <mxPoint x="650" y="199.67000000000002" as="sourcePoint" />
+            <mxPoint x="700" y="199.67000000000002" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="b_wTOoE_V9LIjZZrbfxE-10" value="" style="text;html=1;strokeColor=#b85450;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=1;fontFamily=Comic Sans MS;" vertex="1" parent="1">
@@ -1294,8 +1294,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="b_wTOoE_V9LIjZZrbfxE-12" value="An attacker overwrites a read-only property through a PUT request, setting their order to paid" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontFamily=Comic Sans MS;" vertex="1" parent="1">
-          <mxGeometry x="259" y="60" width="290" height="30" as="geometry" />
+        <mxCell id="b_wTOoE_V9LIjZZrbfxE-12" value="An attacker makes a payment and sets the status to sent" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="240" y="70" width="400" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
