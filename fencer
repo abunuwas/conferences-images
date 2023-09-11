@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-08-02T15:40:58.123Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="ugzs6Neh6nQll6d_rdBG" version="21.6.6" type="github" pages="17">
+<mxfile host="app.diagrams.net" modified="2023-09-11T11:19:27.820Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="0nA0MwU4SWqVSxGXM1pn" version="21.6.6" type="github" pages="18">
   <diagram id="cpmi-uvVvtRBLQvHSzT2" name="holistic_api_security">
-    <mxGraphModel dx="1434" dy="822" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1306" dy="862" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -496,7 +496,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="gAA1qi2_kzGM_k_WKilV" name="excessive_data_exposure">
-    <mxGraphModel dx="1434" dy="822" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1306" dy="862" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -997,14 +997,14 @@
     </mxGraphModel>
   </diagram>
   <diagram id="9A3Koni6DCdn6kVrIlkA" name="bfla">
-    <mxGraphModel dx="956" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1306" dy="862" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="vnycGWlSy_S33LkJn04t-2" value="API" style="rounded=0;whiteSpace=wrap;html=1;horizontal=0;fillColor=#dae8fc;strokeColor=#6c8ebf;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+        <mxCell id="vnycGWlSy_S33LkJn04t-2" value="API" style="rounded=0;whiteSpace=wrap;html=1;horizontal=0;fillColor=#dae8fc;strokeColor=#6c8ebf;fontFamily=Comic Sans MS;" parent="1" vertex="1">
           <mxGeometry x="540" y="180" width="40" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="vnycGWlSy_S33LkJn04t-11" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.067;entryY=0.846;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="1" source="vnycGWlSy_S33LkJn04t-4" target="vnycGWlSy_S33LkJn04t-2">
+        <mxCell id="vnycGWlSy_S33LkJn04t-11" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.067;entryY=0.846;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" parent="1" source="vnycGWlSy_S33LkJn04t-4" target="vnycGWlSy_S33LkJn04t-2" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="200" y="245" />
@@ -1014,7 +1014,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="vnycGWlSy_S33LkJn04t-12" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.017;entryY=0.174;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="1" source="vnycGWlSy_S33LkJn04t-4" target="vnycGWlSy_S33LkJn04t-2">
+        <mxCell id="vnycGWlSy_S33LkJn04t-12" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.017;entryY=0.174;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" parent="1" source="vnycGWlSy_S33LkJn04t-4" target="vnycGWlSy_S33LkJn04t-2" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="200" y="245" />
@@ -1022,25 +1022,25 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="vnycGWlSy_S33LkJn04t-4" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.devices.laptop;dashPattern=1 1;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+        <mxCell id="vnycGWlSy_S33LkJn04t-4" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.devices.laptop;dashPattern=1 1;fontFamily=Comic Sans MS;" parent="1" vertex="1">
           <mxGeometry x="132" y="228" width="58" height="34" as="geometry" />
         </mxCell>
-        <mxCell id="vnycGWlSy_S33LkJn04t-5" value="DELETE /posts/&lt;span style=&quot;text-align: left;&quot;&gt;1&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=#fff2cc;strokeColor=#d6b656;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+        <mxCell id="vnycGWlSy_S33LkJn04t-5" value="DELETE /posts/&lt;span style=&quot;text-align: left;&quot;&gt;1&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=#fff2cc;strokeColor=#d6b656;fontFamily=Comic Sans MS;" parent="1" vertex="1">
           <mxGeometry x="270" y="160" width="200" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="vnycGWlSy_S33LkJn04t-8" value="An attacker fails to delete a post that doesn&#39;t belong to them through user endpoints" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+        <mxCell id="vnycGWlSy_S33LkJn04t-8" value="An attacker fails to delete a post that doesn&#39;t belong to them through user endpoints" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comic Sans MS;" parent="1" vertex="1">
           <mxGeometry x="270" y="106" width="200" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="vnycGWlSy_S33LkJn04t-10" value="attacker" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+        <mxCell id="vnycGWlSy_S33LkJn04t-10" value="attacker" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comic Sans MS;" parent="1" vertex="1">
           <mxGeometry x="130" y="264" width="60" height="18" as="geometry" />
         </mxCell>
-        <mxCell id="vnycGWlSy_S33LkJn04t-13" value="" style="shape=mxgraph.mockup.markup.redX;fillColor=#ff0000;html=1;shadow=0;whiteSpace=wrap;strokeColor=none;" vertex="1" parent="1">
+        <mxCell id="vnycGWlSy_S33LkJn04t-13" value="" style="shape=mxgraph.mockup.markup.redX;fillColor=#ff0000;html=1;shadow=0;whiteSpace=wrap;strokeColor=none;" parent="1" vertex="1">
           <mxGeometry x="355" y="193" width="30" height="22" as="geometry" />
         </mxCell>
-        <mxCell id="vnycGWlSy_S33LkJn04t-15" value="DELETE /admin/posts/&lt;span style=&quot;text-align: left;&quot;&gt;1&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=#fff2cc;strokeColor=#d6b656;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+        <mxCell id="vnycGWlSy_S33LkJn04t-15" value="DELETE /admin/posts/&lt;span style=&quot;text-align: left;&quot;&gt;1&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=#fff2cc;strokeColor=#d6b656;fontFamily=Comic Sans MS;" parent="1" vertex="1">
           <mxGeometry x="270" y="282" width="200" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="vnycGWlSy_S33LkJn04t-16" value="The attacker discovers an admin endpoint that doesn&#39;t validate RBAC properly" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+        <mxCell id="vnycGWlSy_S33LkJn04t-16" value="The attacker discovers an admin endpoint that doesn&#39;t validate RBAC properly" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comic Sans MS;" parent="1" vertex="1">
           <mxGeometry x="270" y="228" width="200" height="54" as="geometry" />
         </mxCell>
       </root>
@@ -1237,6 +1237,54 @@
         </mxCell>
         <mxCell id="WTePY8In2_HCy674KpDz-17" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
           <mxGeometry x="460" y="262" width="40" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="qjDzVGS37--A5VGk3j8k" name="bopla">
+    <mxGraphModel dx="1045" dy="690" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Jo7lr79kEXnCZ6VpOFzV-1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="uZ3SZIQvgOoa-ZiR2Aw2-12" target="uZ3SZIQvgOoa-ZiR2Aw2-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="160" y="410" />
+              <mxPoint x="610" y="410" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uZ3SZIQvgOoa-ZiR2Aw2-2" value="" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;strokeColor=#d6b656;fontFamily=Comic Sans MS;fontSize=12;fillColor=#fff2cc;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="350" width="370" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="uZ3SZIQvgOoa-ZiR2Aw2-3" value="&lt;div&gt;{&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; &amp;nbsp; &quot;status&quot;: &quot;paid&quot;,&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;product&quot;: &quot;48ed7bb8-2e0d-46a9-9136-89ec55af232f&quot;&lt;span style=&quot;background-color: initial;&quot;&gt;,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;quantity&quot;: 1&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div style=&quot;&quot;&gt;}&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="210" y="360" width="350" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="uZ3SZIQvgOoa-ZiR2Aw2-6" value="API" style="rounded=0;whiteSpace=wrap;html=1;horizontal=0;fillColor=#dae8fc;strokeColor=#6c8ebf;fontFamily=Comic Sans MS;comic=0;" vertex="1" parent="1">
+          <mxGeometry x="590" y="260" width="40" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="uZ3SZIQvgOoa-ZiR2Aw2-7" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;fontFamily=Comic Sans MS;comic=0;" edge="1" parent="1" source="uZ3SZIQvgOoa-ZiR2Aw2-8" target="uZ3SZIQvgOoa-ZiR2Aw2-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="200" y="325" />
+              <mxPoint x="200" y="325" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uZ3SZIQvgOoa-ZiR2Aw2-8" value="" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.devices.laptop;dashPattern=1 1;fontFamily=Comic Sans MS;comic=0;" vertex="1" parent="1">
+          <mxGeometry x="132" y="308" width="58" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="uZ3SZIQvgOoa-ZiR2Aw2-9" value="PUT /order/1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=#fff2cc;strokeColor=#d6b656;fontFamily=Comic Sans MS;comic=0;" vertex="1" parent="1">
+          <mxGeometry x="215" y="283.5" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uZ3SZIQvgOoa-ZiR2Aw2-10" value="A user requests the details of their ride" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;comic=0;" vertex="1" parent="1">
+          <mxGeometry x="180" y="249.5" width="228" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="uZ3SZIQvgOoa-ZiR2Aw2-11" value="User updates their order setting the status to &quot;paid&quot;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comic Sans MS;comic=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="460" width="270" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="uZ3SZIQvgOoa-ZiR2Aw2-12" value="user" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comic Sans MS;comic=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="344" width="60" height="18" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
