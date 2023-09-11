@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-11T14:30:33.137Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="g53-0MV9IB3jon8wYIvw" version="21.6.6" type="github" pages="19">
+<mxfile host="app.diagrams.net" modified="2023-09-11T14:32:07.721Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="98o5s7mM3vUsf4xNqJJ9" version="21.6.6" type="github" pages="19">
   <diagram id="cpmi-uvVvtRBLQvHSzT2" name="holistic_api_security">
     <mxGraphModel dx="1306" dy="862" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1291,25 +1291,19 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="MNSzYRHBQIGbpslSWX2V-1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="MNSzYRHBQIGbpslSWX2V-8" target="MNSzYRHBQIGbpslSWX2V-4">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="160" y="410" />
-              <mxPoint x="610" y="410" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="MNSzYRHBQIGbpslSWX2V-2" value="" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;strokeColor=#d6b656;fontFamily=Comic Sans MS;fontSize=12;fillColor=#fff2cc;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="200" y="350" width="370" height="110" as="geometry" />
-        </mxCell>
-        <mxCell id="MNSzYRHBQIGbpslSWX2V-3" value="&lt;div&gt;{&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; &amp;nbsp; &quot;status&quot;: &quot;paid&quot;,&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;product&quot;: &quot;48ed7bb8-2e0d-46a9-9136-89ec55af232f&quot;&lt;span style=&quot;background-color: initial;&quot;&gt;,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;quantity&quot;: 1&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div style=&quot;&quot;&gt;}&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontFamily=Comic Sans MS;" vertex="1" parent="1">
-          <mxGeometry x="210" y="360" width="350" height="100" as="geometry" />
-        </mxCell>
         <mxCell id="MNSzYRHBQIGbpslSWX2V-11" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.597;entryY=-0.015;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="MNSzYRHBQIGbpslSWX2V-4" target="MNSzYRHBQIGbpslSWX2V-10">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="760" y="325" />
               <mxPoint x="760" y="379" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MNSzYRHBQIGbpslSWX2V-16" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="MNSzYRHBQIGbpslSWX2V-4" target="MNSzYRHBQIGbpslSWX2V-15">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="610" y="420" />
+              <mxPoint x="380" y="420" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -1338,6 +1332,15 @@
         </mxCell>
         <mxCell id="MNSzYRHBQIGbpslSWX2V-10" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
           <mxGeometry x="724" y="400" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="MNSzYRHBQIGbpslSWX2V-12" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/nuvola2/128x128/apps/clanbomber.png" vertex="1" parent="1">
+          <mxGeometry x="734" y="310" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MNSzYRHBQIGbpslSWX2V-14" value="The amount of data to be loaded puts the DB under pressure and brings the service down" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comic Sans MS;comic=0;" vertex="1" parent="1">
+          <mxGeometry x="640" y="266.5" width="205" height="43.5" as="geometry" />
+        </mxCell>
+        <mxCell id="MNSzYRHBQIGbpslSWX2V-15" value="..." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="302.5" y="405" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
