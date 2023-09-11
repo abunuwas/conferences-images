@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-11T11:19:27.820Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="0nA0MwU4SWqVSxGXM1pn" version="21.6.6" type="github" pages="18">
+<mxfile host="app.diagrams.net" modified="2023-09-11T11:19:43.549Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="qXpA_fdypSkiDlSyTmqU" version="21.6.6" type="github" pages="18">
   <diagram id="cpmi-uvVvtRBLQvHSzT2" name="holistic_api_security">
     <mxGraphModel dx="1306" dy="862" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1277,14 +1277,11 @@
         <mxCell id="uZ3SZIQvgOoa-ZiR2Aw2-9" value="PUT /order/1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=#fff2cc;strokeColor=#d6b656;fontFamily=Comic Sans MS;comic=0;" vertex="1" parent="1">
           <mxGeometry x="215" y="283.5" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="uZ3SZIQvgOoa-ZiR2Aw2-10" value="A user requests the details of their ride" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;comic=0;" vertex="1" parent="1">
-          <mxGeometry x="180" y="249.5" width="228" height="34" as="geometry" />
-        </mxCell>
-        <mxCell id="uZ3SZIQvgOoa-ZiR2Aw2-11" value="User updates their order setting the status to &quot;paid&quot;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comic Sans MS;comic=0;" vertex="1" parent="1">
-          <mxGeometry x="200" y="460" width="270" height="54" as="geometry" />
-        </mxCell>
         <mxCell id="uZ3SZIQvgOoa-ZiR2Aw2-12" value="user" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comic Sans MS;comic=0;" vertex="1" parent="1">
           <mxGeometry x="130" y="344" width="60" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="Jo7lr79kEXnCZ6VpOFzV-2" value="User updates their order setting the status to &quot;paid&quot;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comic Sans MS;comic=0;" vertex="1" parent="1">
+          <mxGeometry x="165" y="229.5" width="270" height="54" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
