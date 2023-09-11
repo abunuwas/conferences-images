@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-11T11:19:43.549Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="qXpA_fdypSkiDlSyTmqU" version="21.6.6" type="github" pages="18">
+<mxfile host="app.diagrams.net" modified="2023-09-11T11:19:51.995Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="79bnDW0W_zl8fdTgvYMJ" version="21.6.6" type="github" pages="18">
   <diagram id="cpmi-uvVvtRBLQvHSzT2" name="holistic_api_security">
     <mxGraphModel dx="1306" dy="862" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1281,7 +1281,7 @@
           <mxGeometry x="130" y="344" width="60" height="18" as="geometry" />
         </mxCell>
         <mxCell id="Jo7lr79kEXnCZ6VpOFzV-2" value="User updates their order setting the status to &quot;paid&quot;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comic Sans MS;comic=0;" vertex="1" parent="1">
-          <mxGeometry x="165" y="229.5" width="270" height="54" as="geometry" />
+          <mxGeometry x="142.5" y="240" width="315" height="43.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
