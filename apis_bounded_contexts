@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-16T07:26:59.927Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="8WvdVZlVZRA5XwOKqUG9" version="22.0.4" type="github" pages="12">
+<mxfile host="app.diagrams.net" modified="2023-10-16T08:16:32.304Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="g2FlKTYHKv52QStIXzT7" version="22.0.4" type="github" pages="12">
   <diagram name="payment process" id="My9GCo4O5oD9p0zyFy0g">
     <mxGraphModel dx="1306" dy="862" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -846,43 +846,46 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="v7tM0CxQ0O44kKjrFMmp-35" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="240" y="600" width="380" height="300" as="geometry" />
+        </mxCell>
         <mxCell id="v7tM0CxQ0O44kKjrFMmp-1" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
           <mxGeometry x="50" y="70" width="60" height="80" as="geometry" />
         </mxCell>
         <mxCell id="v7tM0CxQ0O44kKjrFMmp-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="v7tM0CxQ0O44kKjrFMmp-2" target="v7tM0CxQ0O44kKjrFMmp-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="v7tM0CxQ0O44kKjrFMmp-2" value="getRideById()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="v7tM0CxQ0O44kKjrFMmp-2" value="getRideById()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="250" y="670" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="v7tM0CxQ0O44kKjrFMmp-3" value="GET /getRideById" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="v7tM0CxQ0O44kKjrFMmp-3" value="GET /getRideById" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="490" y="670" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="v7tM0CxQ0O44kKjrFMmp-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="v7tM0CxQ0O44kKjrFMmp-6" target="v7tM0CxQ0O44kKjrFMmp-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="v7tM0CxQ0O44kKjrFMmp-6" value="orderRide()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="v7tM0CxQ0O44kKjrFMmp-6" value="orderRide()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="250" y="610" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="v7tM0CxQ0O44kKjrFMmp-7" value="POST /orderRide" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="v7tM0CxQ0O44kKjrFMmp-7" value="POST /orderRide" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="490" y="610" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="v7tM0CxQ0O44kKjrFMmp-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="v7tM0CxQ0O44kKjrFMmp-9" target="v7tM0CxQ0O44kKjrFMmp-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="v7tM0CxQ0O44kKjrFMmp-9" value="updateRide()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="v7tM0CxQ0O44kKjrFMmp-9" value="updateRide()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="250" y="730" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="v7tM0CxQ0O44kKjrFMmp-10" value="PUT /updateRide" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="v7tM0CxQ0O44kKjrFMmp-10" value="PUT /updateRide" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="490" y="730" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="v7tM0CxQ0O44kKjrFMmp-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="v7tM0CxQ0O44kKjrFMmp-12" target="v7tM0CxQ0O44kKjrFMmp-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="v7tM0CxQ0O44kKjrFMmp-12" value="deleteRide()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="v7tM0CxQ0O44kKjrFMmp-12" value="deleteRide()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="250" y="850" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="v7tM0CxQ0O44kKjrFMmp-13" value="PUT /deleteRide" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="v7tM0CxQ0O44kKjrFMmp-13" value="PUT /deleteRide" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="490" y="850" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="v7tM0CxQ0O44kKjrFMmp-14" value="rides" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="1">
@@ -939,10 +942,10 @@
         <mxCell id="v7tM0CxQ0O44kKjrFMmp-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="v7tM0CxQ0O44kKjrFMmp-33" target="v7tM0CxQ0O44kKjrFMmp-34">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="v7tM0CxQ0O44kKjrFMmp-33" value="cancelRide()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="v7tM0CxQ0O44kKjrFMmp-33" value="cancelRide()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="250" y="790" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="v7tM0CxQ0O44kKjrFMmp-34" value="PUT /cancelRide" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="v7tM0CxQ0O44kKjrFMmp-34" value="PUT /cancelRide" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="490" y="790" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
