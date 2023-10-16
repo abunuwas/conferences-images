@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-16T07:16:18.505Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="l5V6mVLFDOVbuwuz76W7" version="22.0.4" type="github" pages="12">
+<mxfile host="app.diagrams.net" modified="2023-10-16T07:26:59.927Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="8WvdVZlVZRA5XwOKqUG9" version="22.0.4" type="github" pages="12">
   <diagram name="payment process" id="My9GCo4O5oD9p0zyFy0g">
     <mxGraphModel dx="1306" dy="862" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -853,37 +853,37 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="v7tM0CxQ0O44kKjrFMmp-2" value="getRideById()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="250" y="570" width="120" height="40" as="geometry" />
+          <mxGeometry x="250" y="670" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="v7tM0CxQ0O44kKjrFMmp-3" value="GET /getRideById" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="490" y="570" width="120" height="40" as="geometry" />
+          <mxGeometry x="490" y="670" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="v7tM0CxQ0O44kKjrFMmp-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="v7tM0CxQ0O44kKjrFMmp-6" target="v7tM0CxQ0O44kKjrFMmp-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="v7tM0CxQ0O44kKjrFMmp-6" value="placeOrder()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="250" y="640" width="120" height="40" as="geometry" />
+        <mxCell id="v7tM0CxQ0O44kKjrFMmp-6" value="orderRide()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="610" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="v7tM0CxQ0O44kKjrFMmp-7" value="POST /placeOrder" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="490" y="640" width="120" height="40" as="geometry" />
+        <mxCell id="v7tM0CxQ0O44kKjrFMmp-7" value="POST /orderRide" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="610" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="v7tM0CxQ0O44kKjrFMmp-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="v7tM0CxQ0O44kKjrFMmp-9" target="v7tM0CxQ0O44kKjrFMmp-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="v7tM0CxQ0O44kKjrFMmp-9" value="updateOrder()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="250" y="720" width="120" height="40" as="geometry" />
+        <mxCell id="v7tM0CxQ0O44kKjrFMmp-9" value="updateRide()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="730" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="v7tM0CxQ0O44kKjrFMmp-10" value="PUT /updateOrder" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="490" y="720" width="120" height="40" as="geometry" />
+        <mxCell id="v7tM0CxQ0O44kKjrFMmp-10" value="PUT /updateRide" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="730" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="v7tM0CxQ0O44kKjrFMmp-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="v7tM0CxQ0O44kKjrFMmp-12" target="v7tM0CxQ0O44kKjrFMmp-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="v7tM0CxQ0O44kKjrFMmp-12" value="deleteOrder()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="250" y="800" width="120" height="40" as="geometry" />
+        <mxCell id="v7tM0CxQ0O44kKjrFMmp-12" value="deleteRide()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="850" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="v7tM0CxQ0O44kKjrFMmp-13" value="PUT /deleteOrder" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="490" y="800" width="120" height="40" as="geometry" />
+        <mxCell id="v7tM0CxQ0O44kKjrFMmp-13" value="PUT /deleteRide" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="850" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="v7tM0CxQ0O44kKjrFMmp-14" value="rides" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="220" y="40" width="170" height="176" as="geometry" />
@@ -935,6 +935,15 @@
         </mxCell>
         <mxCell id="v7tM0CxQ0O44kKjrFMmp-31" value="{&lt;br&gt;&amp;nbsp; &quot;id&quot;: &quot;1d936478-1412-4045-8f6a-acc6fdd194b0&quot;,&lt;br&gt;&amp;nbsp; &quot;model&quot;: &quot;Model X&quot;,&lt;br&gt;&amp;nbsp; &quot;owner_id&quot;: &quot;0b2778bd-03e1-4f48-8ef6-2c06151f2d34&quot;&lt;br&gt;}" style="text;html=1;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;spacingLeft=11;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="440" y="392" width="320" height="92" as="geometry" />
+        </mxCell>
+        <mxCell id="v7tM0CxQ0O44kKjrFMmp-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="v7tM0CxQ0O44kKjrFMmp-33" target="v7tM0CxQ0O44kKjrFMmp-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v7tM0CxQ0O44kKjrFMmp-33" value="cancelRide()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="790" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="v7tM0CxQ0O44kKjrFMmp-34" value="PUT /cancelRide" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="790" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
