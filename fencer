@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-07T20:32:34.704Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="zj6rSGDXOGsHoATdsU_J" version="22.1.7" type="github" pages="23">
+<mxfile host="app.diagrams.net" modified="2023-12-07T21:47:57.682Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="gCMWuj_b6nEZfnGt36zW" version="22.1.7" type="github" pages="24">
   <diagram id="cpmi-uvVvtRBLQvHSzT2" name="holistic_api_security">
     <mxGraphModel dx="1306" dy="862" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1622,6 +1622,43 @@
         </mxCell>
         <mxCell id="3dz7_JA3gsfEH5MYE3bT-19" value="" style="shape=mxgraph.mockup.markup.redX;fillColor=#ff0000;html=1;shadow=0;whiteSpace=wrap;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="490" y="377" width="20" height="25" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="D8vt6W7BuOqmQPYSQGPK" name="Page-24">
+    <mxGraphModel dx="1306" dy="862" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="zdHoDaZZHWkHHvNvD8j0-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f9f7ed;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="140" y="120" width="600" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="zdHoDaZZHWkHHvNvD8j0-2" value="" style="endArrow=none;html=1;rounded=1;entryX=1.002;entryY=0.706;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#b85450;fillColor=#f8cecc;strokeWidth=2;" edge="1" parent="1" target="zdHoDaZZHWkHHvNvD8j0-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="140" y="340" as="sourcePoint" />
+            <mxPoint x="190" y="290" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="180" y="360" />
+              <mxPoint x="230" y="350" />
+              <mxPoint x="250" y="370" />
+              <mxPoint x="310" y="360" />
+              <mxPoint x="350" y="380" />
+              <mxPoint x="370" y="330" />
+              <mxPoint x="420" y="360" />
+              <mxPoint x="480" y="350" />
+              <mxPoint x="560" y="370" />
+              <mxPoint x="610" y="300" />
+              <mxPoint x="640" y="170" />
+              <mxPoint x="690" y="290" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zdHoDaZZHWkHHvNvD8j0-3" value="GET /personal-data" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="325" y="440" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zdHoDaZZHWkHHvNvD8j0-5" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#b85450;strokeWidth=5;" vertex="1" parent="1">
+          <mxGeometry x="580" y="150" width="120" height="210" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
