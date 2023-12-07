@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-07T08:43:31.449Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="P--PsIi_FyipgQuB_Mir" version="22.1.7" type="github" pages="22">
+<mxfile host="app.diagrams.net" modified="2023-12-07T08:43:49.555Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="SuHTJXnGV3KN3PyTSy7N" version="22.1.7" type="github" pages="22">
   <diagram id="cpmi-uvVvtRBLQvHSzT2" name="holistic_api_security">
     <mxGraphModel dx="1306" dy="862" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1510,13 +1510,13 @@
         <mxCell id="u7rO4tjWh12IuYfil3fI-8" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="u7rO4tjWh12IuYfil3fI-2" target="u7rO4tjWh12IuYfil3fI-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="u7rO4tjWh12IuYfil3fI-2" value="Orders service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="u7rO4tjWh12IuYfil3fI-2" value="Orders service" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="240" y="357" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="u7rO4tjWh12IuYfil3fI-3" value="User service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="u7rO4tjWh12IuYfil3fI-3" value="User service" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="290" y="160" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="u7rO4tjWh12IuYfil3fI-4" value="Payment service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="u7rO4tjWh12IuYfil3fI-4" value="Payment service" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="470" y="160" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="u7rO4tjWh12IuYfil3fI-5" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
