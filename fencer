@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-07T09:01:05.716Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="3xDJ9WUidAAxTD36xpgy" version="22.1.7" type="github" pages="23">
+<mxfile host="app.diagrams.net" modified="2023-12-07T09:01:58.823Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="oJMWs9bPPZcB4Szyyil4" version="22.1.7" type="github" pages="23">
   <diagram id="cpmi-uvVvtRBLQvHSzT2" name="holistic_api_security">
     <mxGraphModel dx="1306" dy="862" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1591,12 +1591,12 @@
         </mxCell>
         <mxCell id="3dz7_JA3gsfEH5MYE3bT-13" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="470" y="390" as="sourcePoint" />
-            <mxPoint x="500" y="390" as="targetPoint" />
+            <mxPoint x="452" y="389.67" as="sourcePoint" />
+            <mxPoint x="482" y="389.67" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="3dz7_JA3gsfEH5MYE3bT-14" value="Environmental &lt;br&gt;impact" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="530" y="360" width="120" height="60" as="geometry" />
+          <mxGeometry x="500" y="360" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
