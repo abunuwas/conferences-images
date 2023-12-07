@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-07T20:30:27.265Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="uGQJDaFLmUDnGedk7duL" version="22.1.7" type="github" pages="23">
+<mxfile host="app.diagrams.net" modified="2023-12-07T20:32:23.013Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="HQa8Y-3CWf5O9bXJnmSu" version="22.1.7" type="github" pages="23">
   <diagram id="cpmi-uvVvtRBLQvHSzT2" name="holistic_api_security">
     <mxGraphModel dx="1306" dy="862" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1508,7 +1508,12 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="u7rO4tjWh12IuYfil3fI-8" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="u7rO4tjWh12IuYfil3fI-2" target="u7rO4tjWh12IuYfil3fI-3">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="300" y="310" />
+              <mxPoint x="350" y="310" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="u7rO4tjWh12IuYfil3fI-2" value="Orders service" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="240" y="357" width="120" height="60" as="geometry" />
@@ -1536,13 +1541,16 @@
           <mxGeometry x="110" y="330" width="110" height="57" as="geometry" />
         </mxCell>
         <mxCell id="u7rO4tjWh12IuYfil3fI-11" value="traceId: 1&lt;br&gt;spanId:&amp;nbsp;47de&lt;br&gt;parent&amp;nbsp;96bd" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="250" y="230" width="110" height="57" as="geometry" />
+          <mxGeometry x="250" y="254" width="110" height="57" as="geometry" />
         </mxCell>
         <mxCell id="u7rO4tjWh12IuYfil3fI-12" value="traceId: 1&lt;br&gt;spanId:&amp;nbsp;f310&lt;br&gt;parent&amp;nbsp;96bd" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="440" y="230" width="110" height="57" as="geometry" />
         </mxCell>
         <mxCell id="u7rO4tjWh12IuYfil3fI-13" value="traceId: 1&lt;br&gt;spanId:&amp;nbsp;7cc4&lt;br&gt;parent&amp;nbsp;96bd" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="440" y="330" width="110" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="YZD1gdsoIGOR4bI7x_v0-1" value="" style="shape=mxgraph.mockup.markup.redX;fillColor=#ff0000;html=1;shadow=0;whiteSpace=wrap;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="335" y="230" width="30" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
