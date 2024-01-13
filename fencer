@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-13T08:03:38.770Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="H7HvAkD09MuY7nCPvrjj" version="22.1.18" type="github" pages="24">
+<mxfile host="app.diagrams.net" modified="2024-01-13T08:09:31.656Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="F_JhpMBsPTMv4XDM-Iv4" version="22.1.18" type="github" pages="24">
   <diagram id="cpmi-uvVvtRBLQvHSzT2" name="holistic_api_security">
     <mxGraphModel dx="1434" dy="822" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1490,6 +1490,42 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="430" y="326.67" as="sourcePoint" />
             <mxPoint x="400" y="326.67" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yGdPeTmHEkE9TcLADxFx-15" value="API" style="rounded=0;whiteSpace=wrap;html=1;horizontal=0;fillColor=#dae8fc;strokeColor=#6c8ebf;fontFamily=Comic Sans MS;comic=0;" vertex="1" parent="1">
+          <mxGeometry x="650" y="430" width="40" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="yGdPeTmHEkE9TcLADxFx-16" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=0;dashed=1;" edge="1" parent="1" source="yGdPeTmHEkE9TcLADxFx-18" target="yGdPeTmHEkE9TcLADxFx-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yGdPeTmHEkE9TcLADxFx-17" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=0;dashed=1;" edge="1" parent="1" source="yGdPeTmHEkE9TcLADxFx-18" target="yGdPeTmHEkE9TcLADxFx-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yGdPeTmHEkE9TcLADxFx-27" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=0;dashed=1;" edge="1" parent="1" source="yGdPeTmHEkE9TcLADxFx-18" target="yGdPeTmHEkE9TcLADxFx-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yGdPeTmHEkE9TcLADxFx-29" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=0;dashed=1;" edge="1" parent="1" source="yGdPeTmHEkE9TcLADxFx-18" target="yGdPeTmHEkE9TcLADxFx-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yGdPeTmHEkE9TcLADxFx-18" value="" style="pointerEvents=1;shadow=0;dashed=1;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.devices.laptop;fontFamily=Comic Sans MS;comic=0;" vertex="1" parent="1">
+          <mxGeometry x="270" y="553" width="58" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="yGdPeTmHEkE9TcLADxFx-19" value="GET /payments/1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=#f8cecc;strokeColor=#b85450;fontFamily=Comic Sans MS;comic=0;" vertex="1" parent="1">
+          <mxGeometry x="410" y="450" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yGdPeTmHEkE9TcLADxFx-20" value="GET /payments/2" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=#f8cecc;strokeColor=#b85450;fontFamily=Comic Sans MS;comic=0;" vertex="1" parent="1">
+          <mxGeometry x="410" y="510" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yGdPeTmHEkE9TcLADxFx-21" value="GET /payments/3" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=#f8cecc;strokeColor=#b85450;fontFamily=Comic Sans MS;comic=0;" vertex="1" parent="1">
+          <mxGeometry x="410" y="570" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yGdPeTmHEkE9TcLADxFx-22" value="GET /payments/4" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=#f8cecc;strokeColor=#b85450;fontFamily=Comic Sans MS;comic=0;" vertex="1" parent="1">
+          <mxGeometry x="410" y="630" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yGdPeTmHEkE9TcLADxFx-30" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="600" y="553" as="sourcePoint" />
+            <mxPoint x="630" y="553" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
