@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-13T08:01:55.667Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="QNuQ4JjISwdlMYVBvPa1" version="22.1.18" type="github" pages="24">
+<mxfile host="app.diagrams.net" modified="2024-01-13T08:03:30.747Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="v_9wZ0dkl52Twnly7CDz" version="22.1.18" type="github" pages="24">
   <diagram id="cpmi-uvVvtRBLQvHSzT2" name="holistic_api_security">
     <mxGraphModel dx="1434" dy="822" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1444,41 +1444,53 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="yGdPeTmHEkE9TcLADxFx-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ESDWAu2GdaLn-75uxdz1-4" target="ESDWAu2GdaLn-75uxdz1-23">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="yGdPeTmHEkE9TcLADxFx-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ESDWAu2GdaLn-75uxdz1-4" target="ESDWAu2GdaLn-75uxdz1-25">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="ESDWAu2GdaLn-75uxdz1-4" value="API" style="rounded=0;whiteSpace=wrap;html=1;horizontal=0;fillColor=#dae8fc;strokeColor=#6c8ebf;fontFamily=Comic Sans MS;comic=0;" parent="1" vertex="1">
           <mxGeometry x="590" y="170" width="40" height="260" as="geometry" />
         </mxCell>
-        <mxCell id="yGdPeTmHEkE9TcLADxFx-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ESDWAu2GdaLn-75uxdz1-6" target="ESDWAu2GdaLn-75uxdz1-7">
+        <mxCell id="yGdPeTmHEkE9TcLADxFx-13" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=0;dashed=1;" edge="1" parent="1" source="ESDWAu2GdaLn-75uxdz1-6" target="ESDWAu2GdaLn-75uxdz1-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="yGdPeTmHEkE9TcLADxFx-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ESDWAu2GdaLn-75uxdz1-6" target="ESDWAu2GdaLn-75uxdz1-24">
+        <mxCell id="yGdPeTmHEkE9TcLADxFx-14" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=0;dashed=1;" edge="1" parent="1" source="ESDWAu2GdaLn-75uxdz1-6" target="ESDWAu2GdaLn-75uxdz1-25">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ESDWAu2GdaLn-75uxdz1-6" value="" style="pointerEvents=1;shadow=0;dashed=1;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.devices.laptop;fontFamily=Comic Sans MS;comic=0;" parent="1" vertex="1">
-          <mxGeometry x="170" y="283" width="58" height="34" as="geometry" />
+          <mxGeometry x="230" y="283" width="58" height="34" as="geometry" />
         </mxCell>
         <mxCell id="ESDWAu2GdaLn-75uxdz1-7" value="POST /payments" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=#fff2cc;strokeColor=#d6b656;fontFamily=Comic Sans MS;comic=0;" parent="1" vertex="1">
           <mxGeometry x="370" y="190" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ESDWAu2GdaLn-75uxdz1-23" value="{&quot;id&quot;: 1, ...}" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=#fff2cc;strokeColor=#d6b656;fontFamily=Comic Sans MS;comic=0;" parent="1" vertex="1">
+        <mxCell id="ESDWAu2GdaLn-75uxdz1-23" value="{&quot;id&quot;: 1, ...}" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontFamily=Comic Sans MS;comic=0;" parent="1" vertex="1">
           <mxGeometry x="370" y="240" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ESDWAu2GdaLn-75uxdz1-24" value="POST /payments" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=#fff2cc;strokeColor=#d6b656;fontFamily=Comic Sans MS;comic=0;" parent="1" vertex="1">
           <mxGeometry x="370" y="342" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ESDWAu2GdaLn-75uxdz1-25" value="{&quot;id&quot;: 2, ...}" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=#fff2cc;strokeColor=#d6b656;fontFamily=Comic Sans MS;comic=0;" parent="1" vertex="1">
+        <mxCell id="ESDWAu2GdaLn-75uxdz1-25" value="{&quot;id&quot;: 2, ...}" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontFamily=Comic Sans MS;comic=0;" parent="1" vertex="1">
           <mxGeometry x="370" y="382" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="yGdPeTmHEkE9TcLADxFx-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.017;entryY=0.136;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ESDWAu2GdaLn-75uxdz1-7" target="ESDWAu2GdaLn-75uxdz1-4">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="yGdPeTmHEkE9TcLADxFx-9" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="550" y="356.66999999999996" as="sourcePoint" />
+            <mxPoint x="580" y="356.66999999999996" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="yGdPeTmHEkE9TcLADxFx-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.033;entryY=0.718;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ESDWAu2GdaLn-75uxdz1-24" target="ESDWAu2GdaLn-75uxdz1-4">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="yGdPeTmHEkE9TcLADxFx-10" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="550" y="204.67" as="sourcePoint" />
+            <mxPoint x="580" y="204.67" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yGdPeTmHEkE9TcLADxFx-11" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="580" y="254.67000000000002" as="sourcePoint" />
+            <mxPoint x="550" y="254.67000000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yGdPeTmHEkE9TcLADxFx-12" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="580" y="396.67" as="sourcePoint" />
+            <mxPoint x="550" y="396.67" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
